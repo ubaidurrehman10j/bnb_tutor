@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="./styles.css">
+    <title>Edit profile admin</title>
+  </head>
+  <body>
+    <div class="header d-flex px-2 pr-5 justify-content-between pt-3 align-items-center pb-4">
+        <div class="logo">
+            <img src="./assets/logo.png" alt="">
+        </div>
+        <div class="search-bar d-flex align-items-center text-center gap-3 border border-dark rounded-5 px-5 pt-2 pr-5">
+            <span class="skills">
+                <p class="m-0 bold-text">Skills</p>
+                <p>Search Skills</p>
+            </span>
+            <span class="date">
+                <p class="m-0 bold-text">Date</p>
+                <p>Search by Month</p>
+            </span>
+            <span class="destination">
+                <p class="m-0 bold-text">Destination</p>
+                <p>Search Destinations</p>
+            </span>
+            <button class="px-4 pr-4 bnb-color rounded-4 border-0 pt-1 pb-1 text-white">
+                Search 
+            </button>
+        </div>
+        <div class="langugaes-n-btns d-flex align-items-start gap-3 ">
+            <p class="header-red bold-text">ENG | DE</p>
+           <a href="./login.html" class="a-style">
+            <button class="border-0 bg-transparent header-red bold-text">
+                LOGIN
+            </button>
+           </a>
+            <button class="px-4 pr-4 bnb-color rounded-4 border-0 pt-1 pb-1 text-white">
+                <a href="./signup.html" class="a-style">Signup</a>
+            </button>
+        </div>
+    </div>
+
+<!-- main messages -->
+
+<div class="main-messages d-flex w-100">
+    <div class="left-dashboard silver-color d-flex flex-column gap-2 bg-dark text-white pt-5 blck-color">
+        <span class="notif">
+            <details>
+                <summary><img src="./assets/Users (1).png" alt=""> <a href="./admin-dashboard.html" class="a-style">Dashboard</a></summary>
+                
+            </details>
+        </span>
+        <span class="notif">
+            <details>
+                <summary><img src="./assets/Notification (1).png" alt=""> 
+                    <a href="./admin-dashboard.html" class="a-style">Notification</a>
+                    </summary>
+             
+            </details>
+        </span>
+        <span class="revenue">
+            <details>
+                <summary><img src="./assets/Get Revenue (1).png" alt="">  <a href="./users-revenues.html" class="a-style">Revenue</a></summary>
+               
+            </details>
+        </span>
+        <span class="messages">
+            <details>
+                <summary><img src="./assets/Communication (1).png" alt=""> 
+                    <a href="./messagechat.html" class="a-style">Messages</a></summary>
+              
+            </details>
+        </span>
+        <span class="reviews">
+            <details>
+                <summary><img src="./assets/feedback 1 (1).png" alt=""> 
+                    <a href="./reviews.html" class="a-style">Reviews</a></summary>
+               
+            </details>
+        </span>
+        <span class="Settings">
+            <details>
+                <summary><img src="./assets/Settings (1).png" alt=""> Settings</summary>
+                <p>
+                    <a href="./terms.html" class="a-style">Terms</a>
+                </p>
+                <p>
+                    <a href="./privacy.html" class="a-style">Privacy</a>
+                </p>
+                <p>
+                    <a href="./impressum.html" class="a-style">Impressum</a>
+                </p>
+                <p>
+                    <a href="./AboutUs.html" class="a-style">About Us</a>
+                </p>
+                <p>
+                    <a href="./change-pass-admin.html" class="a-style">Change Password</a>
+                </p>
+                <p>
+                    <a href="./edit_subscription.html" class="a-style">Edit subscription fees</a>
+                </p>
+            </details>
+        </span>
+        <span class="dark-mode">
+            <p>Dark mode</p>
+        </span>
+        <span class="Logout">
+            <p>Log out</p>
+        </span>
+    </div>
+
+    <div class="right-terms container px-5 pr-5">
+
+        <h2 class="bold-text text-center pt-4">Edit Profile</h2>
+
+    <div class="d-flex align-items-center justify-content-around main-edit-admin">
+        <div >
+            <span>  <p class="bold-text">Bio</p>
+              <textarea name="" id="" style="height: 162px;
+  width: 553px;" class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, perspiciatis assumenda ipsa vero ad sequi sapiente doloribus excepturi quasi labore saepe placeat deserunt nemo iusto eveniet. Corrupti nulla commodi quas!</textarea></span>
+              <span><p class="bold-text">Contact Email</p>
+              <input type="email" name="" id="" style="width: 553px;"  class="text"></span>
+              <span>
+                  <p class="bold-text">Address</p>
+                  <input type="text" placeholder="building # 125,125 St, California" name="" id="" style="width: 553px;"  class="text">
+              </span>
+              <span><p class="bold-text">Admin Role</p>
+              <span class="d-flex gap-3"><input type="checkbox" name="" id=""><p class="m-0 p-0">Support Team</p></span>
+              <span class="d-flex gap-3"><input type="checkbox" name="" id=""><p class="m-0 p-0">Marketing Team </p></span>
+              <span class="d-flex gap-3"><input type="checkbox" name="" id=""><p class="m-0 p-0">Technical Team</p></span>
+              <span class="d-flex gap-3"><input type="checkbox" name="" id=""><p class="m-0 p-0">CEO/Founder</p></span>
+      
+              
+              </span>
+              <button class="savechanges px-3 rounded-4  save border text-white bnb-color pt-2 pb-2" >Save Changes</button>
+           </div>
+           <div >
+            <span class="uploads">
+              <img src="./assets/Plus Math.png" alt="">
+            </span>
+            <p class="bold-text text-center mt-4">Profile Photo</p>
+            
+        </div>
+        
+    </div>
+   
+</div>
+
+</div>
+
+
+<!-- footer -->
+<div class="footer blck-color text-white position-absolute pt-4 pb-4 text-center mt-4">
+    <div class="container d-flex justify-content-between align-items-center">
+        <div class="logo">
+            <img src="./assets/footerlogo.png" alt="">
+        </div>
+        <div class="tabs d-flex gap-4">
+            <ul>
+                <li>Blog</li>
+            </ul>
+            <ul>
+                <li>Social</li>
+                <li>Stripe</li>
+                <li>Social</li>
+                <li>X(Twitter)</li>
+                <li>Flutterwave</li>
+            </ul>
+            <ul>
+                <li>                 <a href="./privacy.html" class="a-style">Legal</a>
+                </li>
+                <li>
+                    <a href="./terms.html" class="a-style">Terms</a>
+                </li>
+                <li>
+                    <a href="./privacy.html" class="a-style">Privacy</a>
+
+                </li>
+                <li>
+                    <a href="./impressum.html" class="a-style">Impressum</a>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+    <span class="d-flex gap-2 justify-content-center">
+        <p><p class="bold-text">BnB Tutor</p> © 2024 Hotelbuuk Technologies. Germany</p>
+    </span>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+   
+  </body>
+</html>

@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create new listing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<style>
+    .guest-form input {
+        width: 50%;
+    }
+
+    .learn-form input {
+        width: 50%;
+    }
+
+    @media only screen and (max-width: 600px) {
+
+
+        .guest-form input {
+            width: 75%;
+        }
+
+        .learn-form input {
+            width: 75%;
+        }
+    }
+</style>
+
+<body>
+
+    <div class="header d-flex px-2 pr-5 justify-content-between pt-3 align-items-center pb-4">
+        <div class="logo">
+            <img src="./assets/logo.png" alt="">
+        </div>
+        <div class="search-bar d-flex align-items-center text-center gap-3 border border-dark rounded-5 px-5 pt-2 pr-5">
+            <span class="skills">
+                <p class="m-0 bold-text">Skills</p>
+                <p>Search Skills</p>
+            </span>
+            <span class="date">
+                <p class="m-0 bold-text">Date</p>
+                <p>Search by Month</p>
+            </span>
+            <span class="destination">
+                <p class="m-0 bold-text">Destination</p>
+                <p>Search Destinations</p>
+            </span>
+            <button class="px-4 pr-4 bnb-color rounded-4 border-0 pt-1 pb-1 text-white">
+                Search 
+            </button>
+        </div>
+        <div class="langugaes-n-btns d-flex align-items-start gap-3 ">
+            <p class="header-red bold-text">ENG | DE</p>
+           <a href="./login.html" class="a-style">
+            <button class="border-0 bg-transparent header-red bold-text">
+                LOGIN
+            </button>
+           </a>
+            <button class="px-4 pr-4 bnb-color rounded-4 border-0 pt-1 pb-1 text-white">
+                <a href="./signup.html" class="a-style">Signup</a>
+            </button>
+        </div>
+    </div>
+    <!-- header ends -->
+
+    <div class=" text-center">
+        <h1>Create a New Listing</h1>
+    </div>
+    <div class="container pb-3 pt-3">
+        <h4>Listing Title:</h4>
+        <p>Select an option</p>
+        <form action="">
+            <div class="pb-2">
+                <input type="radio" name="" id="" class="me-2">
+                <span class="badge text-dark fs-6 fw-bold" style="background-color: #dedede; ;">Host Tutor</span>
+            </div>
+            <p class="ps-4">You’re a host tutor if you teach guests valuable skills in your BnB</p>
+            <div class="pb-2">
+                <input type="radio" name="" id="" class="me-2">
+                <span class="badge text-dark fs-6 fw-bold" style="background-color: #dedede; ;">Host Mentor</span>
+            </div>
+            <p class="ps-4">You’re a host mentor if you provide professional mentoring guidance for startups,
+                businesses, and entrepreneurs to guest in your BnB</p>
+        </form>
+    </div>
+
+    <div class="container pb-3 pe-1">
+        <h4>Service Title:</h4>
+        <p class="text-wrap pe-1">Give a title to the skill or the mentoring you provide to guests from your BnB
+        </p>
+        <form action="" class="ps-3 learn-form">
+            <div class="pb-2 ps-5">
+                <label class="d-inline fw-bold pe-3 " style="font-size: 1.1rem;">Learn</label>
+                <input type="text" class="form-control d-inline border-dark w-md-25" name="" placeholder="UI/UX Design">
+            </div>
+        </form>
+    </div>
+
+    <div class="container pb-3">
+        <h4>What guests will learn</h4>
+        <p>What are the 3 most important key points a guest will learn when they book your Stay & Learn Services?</p>
+        <form action="" class="ps-md-5 guest-form">
+            <ol type="1">
+                <li class="fw-bold p-2">
+                    <input type="text" class="form-control d-inline border-secondary " name=""
+                        placeholder="Enter lesson 1">
+                </li>
+                <li class="fw-bold p-2">
+                    <input type="text" class="form-control d-inline border-secondary  w-sm-75" name=""
+                        placeholder="Enter lesson 1">
+                </li>
+                <li class="fw-bold p-2">
+                    <input type="text" class="form-control d-inline border-secondary " name=""
+                        placeholder="Enter lesson 1">
+                </li>
+            </ol>
+        </form>
+    </div>
+
+    <div class="container pb-3">
+        <h4>Language of Instruction</h4>
+        <p>What language will you use to teach or mentor your guest?</p>
+        <div class="row">
+            <div class="col-md-3 col-6">
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">English</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for=""> Russian</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Turkish</label>
+                </div>
+                
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">German</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Arabic</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Japanese</label>
+                </div>
+                
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">French</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Portuguese</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Spanish</label>
+                </div>
+                
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Italian</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Chinese</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Dutch</label>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container pb-3">
+        <h4>Other Activities</h4>
+        <p>What other activities will your guests learn or enjoy?</p>
+        <div class="row">
+            <div class="col-md-3 col-6">
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Gaming</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Reading</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Hiking</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Swimming</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Gardening</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Eat Out</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Sightseeing</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Mini Projects</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Photography</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Food Tasting</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Coding</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Poadcasting</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">City Tour</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Window Shopping</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Starter Discussion</label>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container pb-3">
+        <h4>About this Listing</h4>
+        <p class="text-wrap pe-1">Tell your guests what they’ll learn, the activities included and why they need to book
+            your BnB to stay and learn.</p>
+
+        <form action="">
+            <div class="form-floating mb-3">
+                <textarea class="form-control " placeholder="Leave a comment here" id="floatingTextarea"
+                    style="height: 90px;"></textarea>
+                <label for="floatingTextarea" class="pt-0 mt-0 text-secondary text-wrap">Describe this listing in
+                    details. Start by telling guests about yourself</label>
+            </div>
+
+
+        </form>
+
+    </div>
+
+    <div class="container pb-3">
+        <h4>My Ideal guests</h4>
+        <p>Who are your typical guests? (select all that applies)</p>
+        <div class="row container px-4">
+            <div class="col-md-4 col-6">
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Students</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Employees</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Mentees</label>
+                </div>
+                
+            </div>
+            <div class="col-md-4 col-6">
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Startup Founders</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Tourists</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Refugee</label>
+                </div>
+               
+            </div>
+            <div class="col-md-4 col-6">
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Entrepreneurs</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Lifelong Learner</label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                    <label class="form-check-label" for="">Trainees</label>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container pb-3 pe-1">
+        <h4>About the BnB</h4>
+        <h5>Where the Guest will Sleep?</h5>
+
+        <div class="row pt-2">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card border-0">
+                    <div class="w-100 border  rounded-4 d-flex justify-content-center align-items-center bg-secondary "
+                        style="height: 160px; ">
+                        <img src="assets/image-icon.png" class="  " alt="..." width="40px">
+                    </div>
+                    <div class="card-body  px-0 pt-3 pb-0 ">
+                       <form action="">
+                        <div class="mb-3 w-100">
+                            <input type="text" class="w-100 rounded-3  form-control border border-secondry" name="" id="" aria-describedby="helpId"  placeholder="Enter Room Name" />
+                        </div>
+                       </form>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3  col-md-4 col-sm-6">
+                <div class="card border-0">
+                    <div class="w-100 border  rounded-4 d-flex justify-content-center align-items-center bg-secondary "
+                        style="height: 160px; ">
+                        <img src="assets/image-icon.png" class="  " alt="..." width="30px">
+                    </div>
+                    <div class="card-body  px-0 pt-3 pb-0">
+                       <form action="">
+                        <div class="mb-3 w-100">
+                            <input type="text" class="w-100 rounded-3  form-control border border-secondry" name="" id="" aria-describedby="helpId"  placeholder="Enter Room Name" />
+                        </div>
+                       </form>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card border-0">
+                    <div class="w-100 border  rounded-4 d-flex justify-content-center align-items-center bg-secondary "
+                        style="height: 160px; ">
+                        <img src="assets/image-icon.png" class="  " alt="..." width="30px">
+                    </div>
+                    <div class="card-body  px-0 pt-3 pb-0">
+                       <form action="">
+                        <div class="mb-3 w-100">
+                            <input type="text" class="w-100 rounded-3  form-control border border-secondry" name="" id="" aria-describedby="helpId"  placeholder="Enter Room Name" />
+                        </div>
+                       </form>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card border-0">
+                    <div class="w-100 border  rounded-4 d-flex justify-content-center align-items-center bg-secondary "
+                        style="height: 160px; ">
+                        <img src="assets/image-icon.png" class="  " alt="..." width="30px">
+                    </div>
+                    <div class="card-body  px-0 pt-3 pb-0">
+                       <form action="">
+                        <div class="mb-3 w-100">
+                            <input type="text" class="w-100 rounded-3  form-control border border-secondry" name="" id="" aria-describedby="helpId"  placeholder="Enter Room Name" />
+                        </div>
+                       </form>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card border-0">
+                    <div class="w-100 border  rounded-4 d-flex justify-content-center align-items-center bg-secondary "
+                        style="height: 160px; ">
+                        <img src="assets/image-icon.png" class="  " alt="..." width="30px">
+                    </div>
+                    <div class="card-body  px-0 pt-3 pb-0 ">
+                       <form action="">
+                        <div class="mb-3 w-100">
+                            <input type="text" class="w-100 rounded-3  form-control border border-secondry" name="" id="" aria-describedby="helpId"  placeholder="Enter Room Name" />
+                        </div>
+                       </form>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card border-0">
+                    <div class="w-100 border  rounded-4 d-flex justify-content-center align-items-center bg-secondary "
+                        style="height: 160px; ">
+                        <img src="assets/image-icon.png" class="  " alt="..." width="30px">
+                    </div>
+                    <div class="card-body  px-0 pt-3 pb-0">
+                       <form action="">
+                        <div class="mb-3 w-100">
+                            <input type="text" class="w-100 rounded-3  form-control border border-secondry" name="" id="" aria-describedby="helpId"  placeholder="Enter Room Name" />
+                        </div>
+                       </form>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card border-0">
+                    <div class="w-100 border  rounded-4 d-flex justify-content-center align-items-center bg-secondary "
+                        style="height: 160px; ">
+                        <img src="assets/image-icon.png" class="  " alt="..." width="30px">
+                    </div>
+                    <div class="card-body  px-0 pt-3 pb-0">
+                       <form action="">
+                        <div class="mb-3 w-100">
+                            <input type="text" class="w-100 rounded-3  form-control border border-secondry" name="" id="" aria-describedby="helpId"  placeholder="Enter Room Name" />
+                        </div>
+                       </form>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card border-0">
+                    <div class="w-100 border  rounded-4 d-flex justify-content-center align-items-center bg-secondary "
+                        style="height: 160px; ">
+                        <img src="assets/image-icon.png" class="  " alt="..." width="30px">
+                    </div>
+                    <div class="card-body  px-0 pt-3 pb-0">
+                       <form action="">
+                        <div class="mb-3 w-100">
+                            <input type="text" class="w-100 rounded-3  form-control border border-secondry" name="" id="" aria-describedby="helpId"  placeholder="Enter Room Name" />
+                        </div>
+                       </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pb-3 pe-1">
+        <h4>Video of your B&B</h4>
+        <h5>Can guest schedule a LIVE Zoom video or they can just watch the VLOG you uploaded?</h5>
+        <h5 class="fw-bold">Guest can request a LIVE video of my B&B property via zoom</h5>
+        
+        <div class="text-center">
+            <!-- <div> -->
+             <h5 class="text-danger">Not available for a LIVE VLOG?</h5>
+            <h5>Upload short videos instead</h5>
+            <!-- </div> -->
+
+            <div class="row p-md-4 p-lg-5 pt-lg-3 pt-md-3 pt-3 container">
+                <div class=" col-md-4 col-sm-6">
+                    <div class="card border-0">
+                        <div class="w-100 border  rounded-4 d-flex justify-content-center align-items-center bg-secondary "
+                            style="height: 160px; ">
+                            <img src="assets/youtube-video-icon.png" class="  " alt="..." width="40px">
+                        </div>
+                       
+                    </div>
+                </div>
+    
+                <div class=" col-md-4 col-sm-6">
+                    <div class="card border-0">
+                        <div class="w-100 border  rounded-4 d-flex justify-content-center align-items-center bg-secondary "
+                            style="height: 160px; ">
+                            <img src="assets/youtube-video-icon.png" class="  " alt="..." width="30px">
+                        </div>
+                       
+                    </div>
+                </div>
+    
+                <div class=" col-md-4 col-sm-6">
+                    <div class="card border-0">
+                        <div class="w-100 border  rounded-4 d-flex justify-content-center align-items-center bg-secondary "
+                            style="height: 160px; ">
+                            <img src="assets/youtube-video-icon.png" class="  " alt="..." width="30px">
+                        </div>
+                       
+                    </div>
+                </div>
+                </div>
+        </div>
+
+    </div>
+
+    <div class="container pb-3 pe-1">
+        <h4>Amenities</h4>
+        <p class="text-wrap pe-1 fs-5">What are the available amenities in your BnB?
+        </p>
+        
+        <div class="row">
+            <div class="col-md-4  col-sm-6">
+                <div class="card border-0" style="width: 16.5rem;">
+                    <div class="card-header border-danger bg-danger text-center text-light fw-bold pb-1 mb-1" style="font-size: 1.1rem;">
+                      Kitchen
+                    </div>           
+                   <div class=" ps-3">
+                    <ul class="list-group border-0 list-group-flush pt-2">
+                        <li class="list-group-item border-0 py-0 ">
+                          <div class="form-check ">
+                              <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                              <label class="form-check-label" for="">Refrigerator</label>
+                          </div>
+                        </li>
+                        <li class="list-group-item border-0 py-0 ">
+                          <div class="form-check ">
+                          <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                          <label class="form-check-label" for="">Stove</label>
+                      </div>
+                        </li>
+                        <li class="list-group-item border-0 py-0  ">
+                          <div class="form-check ">
+                              <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                              <label class="form-check-label" for="">Oven</label>
+                          </div>
+                        </li>
+                        <li class="list-group-item border-0 py-0  ">
+                          <div class="form-check ">
+                              <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                              <label class="form-check-label" for="">Electric kettle</label>
+                          </div>
+                        </li>
+                        <li class="list-group-item border-0 py-0  ">
+                          <div class="form-check ">
+                              <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                              <label class="form-check-label" for="">Dishwasher</label>
+                          </div>
+                        </li>
+                      </ul>
+                   </div>
+                  </div>
+            </div>
+            <div class="col-md-4  col-sm-6">
+                <div class="card border-0" style="width: 16.5rem;">
+                    <div class="card-header border-danger bg-danger text-center text-light fw-bold pb-1 mb-1" style="font-size: 1.1rem;">
+                      Bedroom
+                    </div>           
+                   <div class=" ps-3">
+                    <ul class="list-group border-0 list-group-flush pt-2">
+                        <li class="list-group-item border-0 py-0 ">
+                          <div class="form-check ">
+                              <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                              <label class="form-check-label" for="">Wi-Fi</label>
+                          </div>
+                        </li>
+                        <li class="list-group-item border-0 py-0 ">
+                          <div class="form-check ">
+                          <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                          <label class="form-check-label" for="">Air conditioning</label>
+                      </div>
+                        </li>
+                        <li class="list-group-item border-0 py-0  ">
+                          <div class="form-check ">
+                              <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                              <label class="form-check-label" for="">Bedside table</label>
+                          </div>
+                        </li>
+                        <li class="list-group-item border-0 py-0  ">
+                          <div class="form-check ">
+                              <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                              <label class="form-check-label" for="">Dressing table</label>
+                          </div>
+                        </li>
+                        <li class="list-group-item border-0 py-0  ">
+                          <div class="form-check ">
+                              <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                              <label class="form-check-label" for="">Fire Alarm</label>
+                          </div>
+                        </li>
+                      </ul>
+                   </div>
+                  </div>
+            </div>
+            <div class="col-md-4  col-sm-6">
+                <div class="card border-0" style="width: 16.5rem;">
+                    <div class="card-header border-danger bg-danger text-center text-light fw-bold pb-1 mb-1" style="font-size: 1.1rem;">
+                      Bathroom
+                    </div>           
+                   <div class=" ps-3">
+                    <ul class="list-group border-0 list-group-flush pt-2">
+                        <li class="list-group-item border-0 py-0 ">
+                          <div class="form-check ">
+                              <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                              <label class="form-check-label" for="">Toiletries</label>
+                          </div>
+                        </li>
+                        <li class="list-group-item border-0 py-0 ">
+                          <div class="form-check ">
+                          <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                          <label class="form-check-label" for="">Shower</label>
+                      </div>
+                        </li>
+                        <li class="list-group-item border-0 py-0  ">
+                          <div class="form-check ">
+                              <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                              <label class="form-check-label" for="">Jacuzzi</label>
+                          </div>
+                        </li>
+                        
+                      </ul>
+                   </div>
+                  </div>
+            </div>
+            <div class="col-md-4  col-sm-6 pt-2">
+                <div class="card border-0" style="width: 16.5rem;">
+                    <div class="card-header border-danger bg-danger text-center text-light fw-bold pb-1 mb-1" style="font-size: 1.1rem;">
+                      General
+                    </div>           
+                   <div class=" ps-3">
+                    <ul class="list-group border-0 list-group-flush pt-2">
+                        <li class="list-group-item border-0 py-0 ">
+                          <div class="form-check ">
+                              <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                              <label class="form-check-label" for="">EV Charger</label>
+                          </div>
+                        </li>
+                        <li class="list-group-item border-0 py-0 ">
+                          <div class="form-check ">
+                          <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                          <label class="form-check-label" for="">Solar</label>
+                      </div>
+                        </li>
+                        <li class="list-group-item border-0 py-0  ">
+                          <div class="form-check ">
+                              <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                              <label class="form-check-label" for="">Smart Home Device</label>
+                          </div>
+                        </li>
+                        <li class="list-group-item border-0 py-0  ">
+                          <div class="form-check ">
+                              <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                              <label class="form-check-label" for="">Heating unit</label>
+                          </div>
+                        </li>
+                        <li class="list-group-item border-0 py-0  ">
+                          <div class="form-check ">
+                              <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                              <label class="form-check-label" for="">Hospital Nearby</label>
+                          </div>
+                        </li>
+                      </ul>
+                   </div>
+                  </div>
+            </div>
+            <div class="col-md-4  col-sm-6 pt-2">
+                <div class="card border-0" style="width: 16.5rem;">
+                    <div class="card-header border-danger bg-danger text-center text-light fw-bold pb-1 mb-1" style="font-size: 1.1rem;">
+                      Essentials
+                    </div>           
+                   <div class=" ps-3">
+                    <ul class="list-group border-0 list-group-flush pt-2">
+                        <li class="list-group-item border-0 py-0 ">
+                          <div class="form-check ">
+                              <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                              <label class="form-check-label" for="">Fire Extinguisher</label>
+                          </div>
+                        </li>
+                        <li class="list-group-item border-0 py-0 ">
+                          <div class="form-check ">
+                          <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                          <label class="form-check-label" for="">CO Alarm</label>
+                      </div>
+                        </li>
+                        <li class="list-group-item border-0 py-0  ">
+                          <div class="form-check ">
+                              <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                              <label class="form-check-label" for="">Elevator</label>
+                          </div>
+                        </li>
+                        <li class="list-group-item border-0 py-0  ">
+                          <div class="form-check ">
+                              <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                              <label class="form-check-label" for="">Handicap Assist</label>
+                          </div>
+                        </li>
+                        <li class="list-group-item border-0 py-0  ">
+                          <div class="form-check ">
+                              <input class="form-check-input border-dark rounded-0" type="checkbox" id="" value="option1" />
+                              <label class="form-check-label" for="">Police Station Nearby</label>
+                          </div>
+                        </li>
+                      </ul>
+                   </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <!--  Date -->
+    <div class="container pb-3 pe-1">
+        <h4>Availability</h4>
+        <p class="text-wrap pe-1">When can guests book your BnB for Stay and Learn?
+        </p>
+        <div class="row">
+            <div class="col-md-4 ">
+                <form action="" class="ps-3 pt-2 learn-form d-flex justify-content-center ">
+                    <div class="d-inline">
+                        <img src="assets/calender-icon.jpeg" alt="" width="37px">
+                    </div>
+                    <div class=" ps-3" style="font-size: 0.8rem;">
+                        <p class="p-0 m-0 " >Available  From</p>
+                        <p class="p-0 m-0 ">01.06.2024</p>
+                    </div> 
+                </form>
+                <!-- <input type="date" name="" id=""> -->
+            </div>
+            <div class="col-md-4 ">
+                <form action="" class="ps-3 pt-2  learn-form d-flex justify-content-center">
+                    <div class="d-inline">
+                        <img src="assets/calender-icon.jpeg" alt="" width="37px">
+                    </div>
+                    <div class=" ps-3" style="font-size: 0.8rem;">
+                        <p class="p-0 m-0 " >Available  From</p>
+                        <p class="p-0 m-0 ">01.06.2024</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Time  -->
+    <div class="container pb-3 pe-1">
+        <h4>Time</h4>  
+        <div class="row">
+            <div class="col-md-6 ">
+                <form action="" class="ps-3 learn-form d-flex justify-content-center ">
+                    <div class="cs-form w-100" >
+                        <label for="" class="form-label d-inline fw-bold">Check in</label>
+                        <input type="time" name=""  value="10:05 AM" class="form-control d-inline m-4" width="70px">
+                    </div> 
+                </form>      
+            </div>
+            <div class="col-md-6 ">
+                <form action="" class="ps-3 learn-form d-flex justify-content-center ">
+                    <div class="cs-form w-100" >
+                        <label for="" class="form-label d-inline fw-bold">Check out</label>
+                        <input type="time" name=""  value="8:05 AM" class="form-control d-inline m-4" width="70px">
+                    </div> 
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Guest Stay -->
+    <div class="container pb-3">
+        <h4>Where guests will stay & learn from?</h4>
+        <p class="text-wrap pe-1 fs-5">Where is your BnB located?</p>
+
+        <form action="" class="ps-3 learn-form">
+            <div class="pb-2 ps-5">
+                <label class="d-inline fw-bold pe-5 " style="font-size: 1.1rem;">City</label>
+                <input type="text" class=" ms-1 form-control d-inline border-dark w-md-25" name="" placeholder="UI/UX Design">
+            </div>
+            <div class="pb-2 ps-5">
+                <label class="d-inline fw-bold pe-4 " style="font-size: 1.1rem;">State</label>
+                <input type="text" class="ms-md-3 form-control d-inline border-dark w-md-25" name="" placeholder="UI/UX Design">
+            </div>
+            <div class="pb-2 ps-5">
+                <label class="d-inline fw-bold pe-3 " style="font-size: 1.1rem;">Country</label>
+                <input type="text" class="form-control d-inline border-dark w-md-25" name="" placeholder="UI/UX Design">
+            </div>
+        </form>
+
+    </div>
+    
+    <a href="./pricing.html" class="a-style"><button class="d-block mx-auto">send</button></a>
+
+    <!-- Google Map -->
+    <div class="container pb-2">
+        <h4>Location on Map</h4>
+       
+        <div class="map d-flex justify-content-center align-items-center mt-5" style="width: 100%; height: 30vh;">
+            <img src="assets/google-map.png" alt="" width="100%" height="230px">
+        </div>
+    </div>
+
+    <!-- footer starts -->
+    <div class="footer blck-color text-white position-absolute pt-4 pb-4 text-center mt-4">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <img src="./assets/footerlogo.png" alt="">
+            </div>
+            <div class="tabs d-flex gap-4">
+                <ul>
+                    <li>Blog</li>
+                </ul>
+                <ul>
+                    <li>Social</li>
+                    <li>Stripe</li>
+                    <li>Social</li>
+                    <li>X(Twitter)</li>
+                    <li>Flutterwave</li>
+                </ul>
+                <ul>
+                    <li>                 <a href="./privacy.html" class="a-style">Legal</a>
+                    </li>
+                    <li>
+                        <a href="./terms.html" class="a-style">Terms</a>
+                    </li>
+                    <li>
+                        <a href="./privacy.html" class="a-style">Privacy</a>
+    
+                    </li>
+                    <li>
+                        <a href="./impressum.html" class="a-style">Impressum</a>
+    
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <span class="d-flex gap-2 justify-content-center">
+            <p><p class="bold-text">BnB Tutor</p> © 2024 Hotelbuuk Technologies. Germany</p>
+        </span>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

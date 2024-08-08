@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+
+    <link rel="stylesheet" type="text/css" href="./css/common.css" />
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="./css/Bnbtutor.css" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+
+
+
+</head>
+
+<body class="flex-column">
+
+    <main class="bnbtutor main">
+     
+        <div class="headers d-flex px-2 pr-5 justify-content-between pt-3 align-items-center pb-4">
+            <div class="logo">
+                <img src="./assets/logo.png" alt="">
+            </div>
+            <div class="search-bar d-flex align-items-center text-center gap-3 border border-dark rounded-5 px-5 pt-2 pr-5">
+                <span class="skills">
+                    <p class="m-0 bold-text">Skills</p>
+                    <p>Search Skills</p>
+                </span>
+                <span class="date">
+                    <p class="m-0 bold-text">Date</p>
+                    <p>Search by Month</p>
+                </span>
+                <span class="destination">
+                    <p class="m-0 bold-text">Destination</p>
+                    <p>Search Destinations</p>
+                </span>
+                <button class="px-4 pr-4 bnb-color rounded-4 border-0 pt-1 pb-1 text-white">
+                    Search 
+                </button>
+            </div>
+            <div class="langugaes-n-btns d-flex align-items-start gap-3 ">
+                <p class="header-red bold-text">ENG | DE</p>
+               <a href="./login.html" class="a-style">
+                <button class="border-0 bg-transparent header-red bold-text">
+                    LOGIN
+                </button>
+               </a>
+                <button class="px-4 pr-4 bnb-color rounded-4 border-0 pt-1 pb-1 text-white">
+                    <a href="./signup.html" class="a-style">Signup</a>
+                </button>
+            </div>
+        </div>
+    
+
+        <section class="heroSection">
+            <!-- Main hero section of the page -->
+            <div class="contentWrapper">
+                <h1 class="headline_box">
+                    <span class="headline">
+              <span class="headline_span0">Learn </span>
+                    <span class="headline_span1 header-red">Valuable Skills</span>
+                    <span class="headline_span2"> from a BnB, in-person</span>
+                    </span>
+                </h1>
+                <div class="buttonGroup">
+                    <!-- Group of action buttons -->
+                    <img class="heroImage" src="./assets/5ab6b8a644bca27da399e78c96a35be5.png" alt="alt text" />
+                    <button class="monthButton">
+                        <!-- TODO -->
+                        <select name="" id="" class="border-0 bg-transparent">
+                            <option value="">Month</option>
+                            <option value="">January</option>
+
+                        </select>
+                       
+                    </button>
+                    <button class="priceButton">
+                        <!-- TODO -->
+                        <select name="" id="" class="border-0 bg-transparent">
+                            <option value="">Price</option>
+                            <option value="">$10</option>
+
+                        </select>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="hostTutorSection">
+            <!-- Main section for Host Tutor listings -->
+            <div class="columnContainer">
+                <!-- Container for columns -->
+                <div class="rowContainer">
+                    <!-- Container for rows -->
+                    <article class="listingCard">
+                        <!-- Individual listing card -->
+                        <div class="listingContentRow">
+                            <figure class="listingImageContainer" style="--src:url(../assets/c93b717558177201972e128d7343742a.png)">
+                                <!-- Container for listing images -->
+                                <div class="listingImageColumn">
+                                    <div class="listingImageRow">
+                                        <img class="smallListingImage" src="./assets/16e7e19e45ed59d56dc07dd2c7876dcb.png" alt="alt text" />
+                                        <img class="smallListingImage1" src="./assets/ed27c3c6bbaf47cd291aaecf3beac632.png" alt="alt text" />
+                                    </div>
+                                    <img class="largeListingImage" src="./assets/abff6e8c0211e94fd585cb9e5683744f.png" alt="alt text" />
+                                </div>
+                            </figure>
+                            <div class="listingTextColumn">
+                                <header class="listingHeaderRow">
+                                    <!-- Header for the listing card -->
+                                    <h3 class="listingSubtitle header-red">Boosted Listing</h3>
+                                    <img class="listingIcon" src="./assets/0c18065c2062d0fef62ba7bb8283ca65.png" alt="alt text" />
+                                </header>
+                                <div class="listingDetailsColumn">
+                                    <!-- Column for listing main details -->
+                                    <h1 class="listingTitle">Host Tutor</h1>
+                                    <div class="listingDetailsSubColumn">
+                                        <h2 class="listingMediumTitle">Learn Graphic Design</h2>
+                                        <h2 class="listingMediumTitle">London, United Kingdom</h2>
+                                        <h2 class="listingMediumTitle1">Dec 12 - Dec 17, 2024</h2>
+                                        <h2 class="listingPrice">€ 520 |  Adult Guest</h2>
+                                    </div>
+                                </div>
+                                <footer class="listingFooterRow">
+                                    <!-- Footer for the listing card -->
+                                    <img class="bookViaVideoIcon" src="./assets/550e7d5ede4d88e8a0a896b30d91f86f.png" alt="alt text" />
+                                    <h2 class="bookViaVideoText">Book via Video</h2>
+                                </footer>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="listingCard">
+                        <div class="listingContentRow">
+                            <figure class="listingImageContainer" style="--src:url(../assets/c93b717558177201972e128d7343742a.png)">
+                                <div class="listingImageColumn">
+                                    <div class="listingImageRow">
+                                        <img class="smallListingImage" src="./assets/16e7e19e45ed59d56dc07dd2c7876dcb.png" alt="alt text" />
+                                        <img class="smallListingImage1" src="./assets/ed27c3c6bbaf47cd291aaecf3beac632.png" alt="alt text" />
+                                    </div>
+                                    <img class="largeListingImage" src="./assets/abff6e8c0211e94fd585cb9e5683744f.png" alt="alt text" />
+                                </div>
+                            </figure>
+                            <div class="listingTextColumn">
+                                <header class="listingHeaderRow">
+                                    <h3 class="listingSubtitle header-red">Boosted Listing</h3>
+                                    <img class="listingIcon" src="./assets/0c18065c2062d0fef62ba7bb8283ca65.png" alt="alt text" />
+                                </header>
+                                <div class="listingDetailsColumn">
+                                    <h1 class="listingTitle">Host Tutor</h1>
+                                    <div class="listingDetailsSubColumn">
+                                        <h2 class="listingMediumTitle">Learn Graphic Design</h2>
+                                        <h2 class="listingMediumTitle">London, United Kingdom</h2>
+                                        <h2 class="listingMediumTitle1">Dec 12 - Dec 17, 2024</h2>
+                                        <h2 class="listingPrice">€ 520 |  Adult Guest</h2>
+                                    </div>
+                                </div>
+                                <footer class="listingFooterRow">
+                                    <img class="bookViaVideoIcon" src="./assets/550e7d5ede4d88e8a0a896b30d91f86f.png" alt="alt text" />
+                                    <h2 class="bookViaVideoText">Book via Video</h2>
+                                </footer>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="rowContainer">
+                    <article class="listingCard">
+                        <div class="listingContentRow">
+                            <figure class="listingImageContainer" style="--src:url(../assets/c93b717558177201972e128d7343742a.png)">
+                                <div class="listingImageColumn">
+                                    <div class="listingImageRow">
+                                        <img class="smallListingImage" src="./assets/16e7e19e45ed59d56dc07dd2c7876dcb.png" alt="alt text" />
+                                        <img class="smallListingImage1" src="./assets/ed27c3c6bbaf47cd291aaecf3beac632.png" alt="alt text" />
+                                    </div>
+                                    <img class="largeListingImage" src="./assets/abff6e8c0211e94fd585cb9e5683744f.png" alt="alt text" />
+                                </div>
+                            </figure>
+                            <div class="listingTextColumn">
+                                <header class="listingHeaderRow">
+                                    <h3 class="listingSubtitle header-red">Boosted Listing</h3>
+                                    <img class="listingIcon" src="./assets/0c18065c2062d0fef62ba7bb8283ca65.png" alt="alt text" />
+                                </header>
+                                <div class="listingDetailsColumn">
+                                    <h1 class="listingTitle">Host Tutor</h1>
+                                    <div class="listingDetailsSubColumn">
+                                        <h2 class="listingMediumTitle">Learn Graphic Design</h2>
+                                        <h2 class="listingMediumTitle">London, United Kingdom</h2>
+                                        <h2 class="listingMediumTitle1">Dec 12 - Dec 17, 2024</h2>
+                                        <h2 class="listingPrice">€ 520 |  Adult Guest</h2>
+                                    </div>
+                                </div>
+                                <footer class="listingFooterRow">
+                                    <img class="bookViaVideoIcon" src="./assets/550e7d5ede4d88e8a0a896b30d91f86f.png" alt="alt text" />
+                                    <h2 class="bookViaVideoText">Book via Video</h2>
+                                </footer>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="listingCard">
+                        <div class="listingContentRow">
+                            <figure class="listingImageContainer" style="--src:url(../assets/c93b717558177201972e128d7343742a.png)">
+                                <div class="listingImageColumn">
+                                    <div class="listingImageRow">
+                                        <img class="smallListingImage" src="./assets/16e7e19e45ed59d56dc07dd2c7876dcb.png" alt="alt text" />
+                                        <img class="smallListingImage1" src="./assets/ed27c3c6bbaf47cd291aaecf3beac632.png" alt="alt text" />
+                                    </div>
+                                    <img class="largeListingImage" src="./assets/abff6e8c0211e94fd585cb9e5683744f.png" alt="alt text" />
+                                </div>
+                            </figure>
+                            <div class="listingTextColumn">
+                                <header class="listingHeaderRow">
+                                    <h3 class="listingSubtitle header-red">Boosted Listing</h3>
+                                    <img class="listingIcon" src="./assets/0c18065c2062d0fef62ba7bb8283ca65.png" alt="alt text" />
+                                </header>
+                                <div class="listingDetailsColumn">
+                                    <h1 class="listingTitle">Host Tutor</h1>
+                                    <div class="listingDetailsSubColumn">
+                                        <h2 class="listingMediumTitle">Learn Graphic Design</h2>
+                                        <h2 class="listingMediumTitle">London, United Kingdom</h2>
+                                        <h2 class="listingMediumTitle1">Dec 12 - Dec 17, 2024</h2>
+                                        <h2 class="listingPrice">€ 520 |  Adult Guest</h2>
+                                    </div>
+                                </div>
+                                <footer class="listingFooterRow">
+                                    <img class="bookViaVideoIcon" src="./assets/550e7d5ede4d88e8a0a896b30d91f86f.png" alt="alt text" />
+                                    <h2 class="bookViaVideoText">Book via Video</h2>
+                                </footer>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="similarListingsSection">
+            <!-- Section containing similar listings -->
+            <div class="listingsWrapper">
+                <!-- Wrapper for the listings section -->
+                <h1 class="listingsHeader">Similar Listings</h1>
+                <div class="listingsGrid">
+                    <!-- Grid container for listing items -->
+                    <div class="listingCard1">
+                        <div class="listingContent">
+                            <figure class="listingImageWrapper" style="--src:url(../assets/e1f4419da4b5a77030897d3fc43be5a2.png)">
+                                <div class="imageRow">
+                                    <img class="listingThumbnail" src="./assets/16e7e19e45ed59d56dc07dd2c7876dcb.png" alt="alt text" />
+                                    <img class="listingThumbnailAlt" src="./assets/ed27c3c6bbaf47cd291aaecf3beac632.png" alt="alt text" />
+                                </div>
+                            </figure>
+                            <div class="listingDetails">
+                                <h2 class="title">Host Tutor</h2>
+                                <h3 class="listingSubtitle1">Learn Graphic Design</h3>
+                                <h3 class="listingLocation">London, United Kingdom</h3>
+                                <h3 class="listingDates">Dec 12 - Dec 17, 2024</h3>
+                                <h3 class="listingPrice1">€ 520 |  Adult Guest</h3>
+                            </div>
+                            <div class="listingExtrasRow">
+                                <img class="videoThumbnail" src="./assets/550e7d5ede4d88e8a0a896b30d91f86f.png" alt="alt text" />
+                                <h3 class="videoBooking">Book via Video</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listingCard1">
+                        <div class="listingContent">
+                            <figure class="listingImageWrapper" style="--src:url(../assets/e1f4419da4b5a77030897d3fc43be5a2.png)">
+                                <div class="imageRow">
+                                    <img class="listingThumbnail" src="./assets/16e7e19e45ed59d56dc07dd2c7876dcb.png" alt="alt text" />
+                                    <img class="listingThumbnailAlt" src="./assets/ed27c3c6bbaf47cd291aaecf3beac632.png" alt="alt text" />
+                                </div>
+                            </figure>
+                            <div class="listingDetails">
+                                <h2 class="title">Host Tutor</h2>
+                                <h3 class="listingSubtitle1">Learn Graphic Design</h3>
+                                <h3 class="listingLocation">London, United Kingdom</h3>
+                                <h3 class="listingDates">Dec 12 - Dec 17, 2024</h3>
+                                <h3 class="listingPrice1">€ 520 |  Adult Guest</h3>
+                            </div>
+                            <div class="listingExtrasRow">
+                                <img class="videoThumbnail" src="./assets/550e7d5ede4d88e8a0a896b30d91f86f.png" alt="alt text" />
+                                <h3 class="videoBooking">Book via Video</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listingCard1">
+                        <div class="listingContent">
+                            <figure class="listingImageWrapper" style="--src:url(../assets/e1f4419da4b5a77030897d3fc43be5a2.png)">
+                                <div class="imageRow">
+                                    <img class="listingThumbnail" src="./assets/16e7e19e45ed59d56dc07dd2c7876dcb.png" alt="alt text" />
+                                    <img class="listingThumbnailAlt" src="./assets/ed27c3c6bbaf47cd291aaecf3beac632.png" alt="alt text" />
+                                </div>
+                            </figure>
+                            <div class="listingDetails">
+                                <h2 class="title">Host Tutor</h2>
+                                <h3 class="listingSubtitle1">Learn Graphic Design</h3>
+                                <h3 class="listingLocation">London, United Kingdom</h3>
+                                <h3 class="listingDates">Dec 12 - Dec 17, 2024</h3>
+                                <h3 class="listingPrice1">€ 520 |  Adult Guest</h3>
+                            </div>
+                            <div class="listingExtrasRow">
+                                <img class="videoThumbnail" src="./assets/550e7d5ede4d88e8a0a896b30d91f86f.png" alt="alt text" />
+                                <h3 class="videoBooking">Book via Video</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listingCard1">
+                        <div class="listingContent">
+                            <figure class="listingImageWrapper" style="--src:url(../assets/e1f4419da4b5a77030897d3fc43be5a2.png)">
+                                <div class="imageRow">
+                                    <img class="listingThumbnail" src="./assets/16e7e19e45ed59d56dc07dd2c7876dcb.png" alt="alt text" />
+                                    <img class="listingThumbnailAlt" src="./assets/ed27c3c6bbaf47cd291aaecf3beac632.png" alt="alt text" />
+                                </div>
+                            </figure>
+                            <div class="listingDetails">
+                                <h2 class="title">Host Tutor</h2>
+                                <h3 class="listingSubtitle1">Learn Graphic Design</h3>
+                                <h3 class="listingLocation">London, United Kingdom</h3>
+                                <h3 class="listingDates">Dec 12 - Dec 17, 2024</h3>
+                                <h3 class="listingPrice1">€ 520 |  Adult Guest</h3>
+                            </div>
+                            <div class="listingExtrasRow">
+                                <img class="videoThumbnail" src="./assets/550e7d5ede4d88e8a0a896b30d91f86f.png" alt="alt text" />
+                                <h3 class="videoBooking">Book via Video</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="listingsGrid">
+                    <!-- Grid container for listing items -->
+                    <div class="listingCard1">
+                        <div class="listingContent">
+                            <figure class="listingImageWrapper" style="--src:url(../assets/e1f4419da4b5a77030897d3fc43be5a2.png)">
+                                <div class="imageRow">
+                                    <img class="listingThumbnail" src="./assets/16e7e19e45ed59d56dc07dd2c7876dcb.png" alt="alt text" />
+                                    <img class="listingThumbnailAlt" src="./assets/ed27c3c6bbaf47cd291aaecf3beac632.png" alt="alt text" />
+                                </div>
+                            </figure>
+                            <div class="listingDetails">
+                                <h2 class="title">Host Tutor</h2>
+                                <h3 class="listingSubtitle1">Learn Graphic Design</h3>
+                                <h3 class="listingLocation">London, United Kingdom</h3>
+                                <h3 class="listingDates">Dec 12 - Dec 17, 2024</h3>
+                                <h3 class="listingPrice1">€ 520 |  Adult Guest</h3>
+                            </div>
+                            <div class="listingExtrasRow">
+                                <img class="videoThumbnail" src="./assets/550e7d5ede4d88e8a0a896b30d91f86f.png" alt="alt text" />
+                                <h3 class="videoBooking">Book via Video</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listingCard1">
+                        <div class="listingContent">
+                            <figure class="listingImageWrapper" style="--src:url(../assets/e1f4419da4b5a77030897d3fc43be5a2.png)">
+                                <div class="imageRow">
+                                    <img class="listingThumbnail" src="./assets/16e7e19e45ed59d56dc07dd2c7876dcb.png" alt="alt text" />
+                                    <img class="listingThumbnailAlt" src="./assets/ed27c3c6bbaf47cd291aaecf3beac632.png" alt="alt text" />
+                                </div>
+                            </figure>
+                            <div class="listingDetails">
+                                <h2 class="title">Host Tutor</h2>
+                                <h3 class="listingSubtitle1">Learn Graphic Design</h3>
+                                <h3 class="listingLocation">London, United Kingdom</h3>
+                                <h3 class="listingDates">Dec 12 - Dec 17, 2024</h3>
+                                <h3 class="listingPrice1">€ 520 |  Adult Guest</h3>
+                            </div>
+                            <div class="listingExtrasRow">
+                                <img class="videoThumbnail" src="./assets/550e7d5ede4d88e8a0a896b30d91f86f.png" alt="alt text" />
+                                <h3 class="videoBooking">Book via Video</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listingCard1">
+                        <div class="listingContent">
+                            <figure class="listingImageWrapper" style="--src:url(../assets/e1f4419da4b5a77030897d3fc43be5a2.png)">
+                                <div class="imageRow">
+                                    <img class="listingThumbnail" src="./assets/16e7e19e45ed59d56dc07dd2c7876dcb.png" alt="alt text" />
+                                    <img class="listingThumbnailAlt" src="./assets/ed27c3c6bbaf47cd291aaecf3beac632.png" alt="alt text" />
+                                </div>
+                            </figure>
+                            <div class="listingDetails">
+                                <h2 class="title">Host Tutor</h2>
+                                <h3 class="listingSubtitle1">Learn Graphic Design</h3>
+                                <h3 class="listingLocation">London, United Kingdom</h3>
+                                <h3 class="listingDates">Dec 12 - Dec 17, 2024</h3>
+                                <h3 class="listingPrice1">€ 520 |  Adult Guest</h3>
+                            </div>
+                            <div class="listingExtrasRow">
+                                <img class="videoThumbnail" src="./assets/550e7d5ede4d88e8a0a896b30d91f86f.png" alt="alt text" />
+                                <h3 class="videoBooking">Book via Video</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listingCard1">
+                        <div class="listingContent">
+                            <figure class="listingImageWrapper" style="--src:url(../assets/e1f4419da4b5a77030897d3fc43be5a2.png)">
+                                <div class="imageRow">
+                                    <img class="listingThumbnail" src="./assets/16e7e19e45ed59d56dc07dd2c7876dcb.png" alt="alt text" />
+                                    <img class="listingThumbnailAlt" src="./assets/ed27c3c6bbaf47cd291aaecf3beac632.png" alt="alt text" />
+                                </div>
+                            </figure>
+                            <div class="listingDetails">
+                                <h2 class="title">Host Tutor</h2>
+                                <h3 class="listingSubtitle1">Learn Graphic Design</h3>
+                                <h3 class="listingLocation">London, United Kingdom</h3>
+                                <h3 class="listingDates">Dec 12 - Dec 17, 2024</h3>
+                                <h3 class="listingPrice1">€ 520 |  Adult Guest</h3>
+                            </div>
+                            <div class="listingExtrasRow">
+                                <img class="videoThumbnail" src="./assets/550e7d5ede4d88e8a0a896b30d91f86f.png" alt="alt text" />
+                                <h3 class="videoBooking">Book via Video</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gamerStaySection">
+            <!-- Main section for gamer stay advertisement -->
+            <div class="contentWrapper1">
+                <button class="loadMoreBtn bnb-color">
+                    <!-- TODO -->
+                    Load More...
+                </button>
+                <div class="heroContentRow">
+                    <!-- Row layout for hero content -->
+                    <div class="heroTextCol">
+                        <h1 class="gamerStayHeroTitle">
+                            Stay with your
+                            <br />
+                fave Video Gamer
+                        </h1>
+                        <h2 class="gamerStayMediumTitle">
+                            Take your vacation to the next level. Stay with your favorite professional video gamers. No crowds, no
+                            pressure—just you and an array of engaging solo games. Learn to play or play as a pro.
+                            <br />
+                Enhance your stay with cozy accommodations, thoughtful amenities, and the perfect balance of relaxation
+                and excitement. Recharge your mind and body while exploring new virtual worlds from the comfort of your
+                room.
+                        </h2>
+                    </div>
+                    <img class="gamerStayImage" src="./assets/316358ef2174f1728e47930e97871f2d.png" alt="alt text" />
+                </div>
+                <div class="farmStayRow">
+                    <!-- Row layout for farm stay content -->
+                    <img class="farmStayImage" src="./assets/9d6bd8c0835955dad8bf34d1f76f0927.png" alt="alt text" />
+                    <div class="farmStayTextCol">
+                        <h1 class="farmStayHeroTitle">Farm vacation. Escape the bustle</h1>
+                        <h2 class="farmStayMediumTitle">
+                            Experience the tranquility of a farm vacation like never before! Escape the hustle and bustle and
+                            immerse yourself in the serene beauty of nature.
+                            <br />
+                            <br />
+                Enjoy fresh air, open spaces, and the charm of rural life. Engage in hands-on farm activities, from
+                feeding animals to harvesting crops.
+                            <br />
+                Savor farm-to-table meals made with the freshest ingredients.
+                            <br />
+                            <br />
+                Reconnect with nature, rejuvenate your spirit, and create unforgettable memories. Perfect for families,
+                couples, and solo travelers seeking a unique getaway.
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="heroSec">
+            <!-- main hero section -->
+            <div class="contentWrapper2">
+                <h1 class="mainHeading">The world awaits you</h1>
+                <h2 class="subHeading">
+                    Escape the ordinary and ignite your senses! Immerse yourselves in diverse cultures, savoring exquisite
+                    cuisines and vibrant traditions. Explore hidden gems, learn business or tech, learn a skill or craft.
+                    Indulge in intimate, authentic experiences. The world is your classroom!
+                </h2>
+                <img class="heroImage1" src="./assets/e1eb900d25dd98f9c564ae553f984e51.png" alt="alt text" />
+            </div>
+        </section>
+
+        <section class="learningContentSection">
+            <!-- Main content section for learning offerings -->
+            <div class="contentWrapper3">
+                <h1 class="mainTitle1">What you can Learn</h1>
+                <div class="flexRowContainer">
+                    <!-- Container for flexible grid rows -->
+                    <div class="gridColumn1">
+                        <!-- First column of the grid -->
+                        <h2 class="gridItem">Woodwork</h2>
+                        <h2 class="gridItem">Woodwork</h2>
+                        <h2 class="gridItem">Woodwork</h2>
+                        <h2 class="gridItem">Woodwork</h2>
+                        <h2 class="gridItem">Woodwork</h2>
+                        <h2 class="gridItem">Woodwork</h2>
+                        <h2 class="gridItem">Woodwork</h2>
+                        <h2 class="gridItem">Woodwork</h2>
+                    </div>
+                    <div class="gridColumn2">
+                        <!-- Second column of the grid -->
+                        <h2 class="gridItem">Woodwork</h2>
+                        <h2 class="gridItem">Woodwork</h2>
+                        <h2 class="gridItem">Woodwork</h2>
+                        <h2 class="gridItem">Woodwork</h2>
+                        <h2 class="gridItem">Woodwork</h2>
+                        <h2 class="gridItem">Woodwork</h2>
+                        <h2 class="gridItem">Woodwork</h2>
+                        <h2 class="gridItem">Woodwork</h2>
+                    </div>
+                    <div class="flexColumn">
+                        <!-- Flexible column layout within the section -->
+                        <h2 class="columnBigTitle">Woodwork</h2>
+                        <h2 class="columnBigTitle">Woodwork</h2>
+                        <h2 class="columnBigTitle">Woodwork</h2>
+                        <h2 class="columnBigTitle">Woodwork</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="aboutBnbTutorSection">
+            <!-- main content section about BnB Tutor -->
+            <div class="contentWrapper4">
+                <h1 class="bigTitle">
+                    <!-- main title -->
+                    About BnB Tutor
+                </h1>
+                <div class="contentBox">
+                    <div class="descriptionWrapper">
+                        <h2 class="heroTitle">
+                            <!-- secondary title explaining why people book -->
+                            People are Booking their Vacation with us, here’s why.
+                        </h2>
+                        <div class="informationWrapper">
+                            <p class="descriptionText">
+                                <!-- detailed description about BnB Tutor -->
+                                At BnB Tutor, we help you to connect with new experiences for self improvement and development. We
+                                distinguish ourselves by carefully selecting talented B&amp;B providers who provide not just lodging
+                                services but also unique experiences to ensure your stay is authentic, refreshing and uplifting. Every
+                                of our host is a tutor, a mentor, a teacher or an expert in their respective fields.
+                                <br />
+                  Learn the basics of machine learning from a host in Berlin or visit Brazil to learn the true nature of
+                  the Amazon forest from a native. You could book with a host who teaches robotics in China. Nothing is
+                  beyond you with us.
+                                <br />
+                  Discover the joy of mastering a new talent while enjoying all the comforts of a traditional B&amp;B.
+                  Let’s help you achieve more from your vacation!
+                            </p>
+                            <img class="image8" src="./assets/c34b5cde8233cc1272e886ff6fba11db.png" alt="alt text" />
+                            <!-- image representing the content -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faqSection ">
+            <!-- Main FAQ section for the website -->
+            <div class="faqContentCol d-flex flex-column gap-4">
+                <h1 class="faqTitle">FAQ</h1>
+                
+               
+               <div class="w-100 Faqss ">
+                <details>
+                    <summary  class="fs-5">How do I book an apartment on Wunderflats?</summary>
+                    <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo consequatur atque quia magni accusamus. Saepe, placeat inventore aperiam assumenda architecto quos totam reiciendis ullam, atque, maxime eius debitis reprehenderit ab.</p>
+                </details>
+               </div>
+               <div class="w-100 Faqss">
+                <details>
+                    <summary class="fs-5">Can I book a Wunderflat over the phone?</summary>
+                    <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo consequatur atque quia magni accusamus. Saepe, placeat inventore aperiam assumenda architecto quos totam reiciendis ullam, atque, maxime eius debitis reprehenderit ab.</p>
+                </details>
+               </div>
+               <div class="w-100 Faqss">
+                <details>
+                    <summary class="fs-5">Can I register my address?</summary>
+                    <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo consequatur atque quia magni accusamus. Saepe, placeat inventore aperiam assumenda architecto quos totam reiciendis ullam, atque, maxime eius debitis reprehenderit ab.</p>
+                </details>
+               </div>
+               <div class="w-100 Faqss">
+                <details>
+                    <summary class="fs-5">Can I view my apartment before I rent it?</summary>
+                    <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo consequatur atque quia magni accusamus. Saepe, placeat inventore aperiam assumenda architecto quos totam reiciendis ullam, atque, maxime eius debitis reprehenderit ab.</p>
+                </details>
+               </div>
+            </div>
+        </section>
+
+        <section class="heroSection">
+            <!-- Main content section showcasing a hero message and image -->
+            <div class="flexCol">
+                <h1 class="heroTitleBox_box">
+                    <span class="heroTitleBox">
+              <span class="heroTitleBox_span0">Meet Great People at </span>
+                    <span class="heroTitleBox_span1 header-red">Top Destinations</span>
+                    <span class="heroTitleBox_span2"> around the world</span>
+                    </span>
+                </h1>
+                <img class="heroImage2" src="./assets/21f1a2a9eed3f773a3c80d795128a265.png" alt="alt text" />
+                <!-- Image illustrating the hero message -->
+            </div>
+        </section>
+
+   
+    </main>
+    <div class="footer blck-color text-white  pt-4 pb-4 text-center mt-4">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <img src="./assets/footerlogo.png" alt="">
+            </div>
+            <div class="tabs d-flex gap-4">
+                <ul>
+                    <li>Blog</li>
+                </ul>
+                <ul>
+                    <li>Social</li>
+                    <li>Stripe</li>
+                    <li>Social</li>
+                    <li>X(Twitter)</li>
+                    <li>Flutterwave</li>
+                </ul>
+                <ul>
+                    <li>         Legal
+                    </li>
+                    <li>
+                        <a href="./terms.html" class="a-style">Terms</a>
+                    </li>
+                    <li>
+                        <a href="./privacy.html" class="a-style">Privacy</a>
+    
+                    </li>
+                    <li>
+                        <a href="./impressum.html" class="a-style">Impressum</a>
+    
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <span class="d-flex gap-2 justify-content-center">
+            <p><p class="bold-text">BnB Tutor</p> © 2024 Hotelbuuk Technologies. Germany</p>
+        </span>
+    </div>
+</body>
+
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+crossorigin="anonymous"
+></script>
+<script
+src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+crossorigin="anonymous"
+></script>
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+crossorigin="anonymous"
+></script>
+</html>

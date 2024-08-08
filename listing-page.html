@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listing Page</title>
+     <link href="https://cdn.jsdelivr.net/npm/@coreui/coreui@5.1.0/dist/css/coreui.min.css" rel="stylesheet" integrity="sha384-OaSt6YlNk8f06OeGRPsV4UfP2F3Si8sd9Rqxt7iOdIsBKk+zbBLgwCyBwoBqLjDE" crossorigin="anonymous">
+
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <style>
+    p{
+      margin: 0;
+      padding: 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    td {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <div class="header d-flex px-2 pr-5 justify-content-between pt-3 align-items-center pb-4">
+      <div class="logo">
+          <img src="./assets/logo.png" alt="">
+      </div>
+      <div class="search-bar d-flex align-items-center text-center gap-3 border border-dark rounded-5 px-5 pt-2 pr-5">
+          <span class="skills">
+              <p class="m-0 bold-text">Skills</p>
+              <p>Search Skills</p>
+          </span>
+          <span class="date">
+              <p class="m-0 bold-text">Date</p>
+              <p>Search by Month</p>
+          </span>
+          <span class="destination">
+              <p class="m-0 bold-text">Destination</p>
+              <p>Search Destinations</p>
+          </span>
+          <button class="px-4 pr-4 bnb-color rounded-4 border-0 pt-1 pb-1 text-white">
+              Search 
+          </button>
+      </div>
+      <div class="langugaes-n-btns d-flex align-items-start gap-3 ">
+          <p class="header-red bold-text">ENG | DE</p>
+         <a href="./login.html" class="a-style">
+          <button class="border-0 bg-transparent header-red bold-text">
+              LOGIN
+          </button>
+         </a>
+          <button class="px-4 pr-4 bnb-color rounded-4 border-0 pt-1 pb-1 text-white">
+              <a href="./signup.html" class="a-style">Signup</a>
+          </button>
+      </div>
+  </div>
+    <!-- listing page -->
+
+    <div class="listing-page-main">
+      <div class="control-share">
+        <button>Share</button>
+        <button>Save</button>
+      </div>
+      <div class="share-pic d-flex gap-3 text-center mt-3">
+        <img src="./assets/home1.png" alt="" />
+        <div class="all-homes d-flex flex-wrap gap-3">
+          <div class="d-flex   img-homes">
+            <span class=" home1">
+            <img src="./assets/homes.png" alt="">
+          </span>
+            <span><img src="./assets/home2.png" alt="" /></span></div>
+         <div class="other">
+          <span><img src="./assets/home3.png" alt="" /></span>
+          <span><img src="./assets/home4.png" alt="" /></span>
+         </div>
+        </div>
+       
+      </div>
+    <div class="d-flex mt-4 justify-content-between abt-des">
+      <div class="d-flex justify-content-center flex-column">
+        <span>   <h2 class="bold-text responsive-heading">Host Tutor | Learn UX Design</h2>
+           <p class="fs-5" style="color:#656363">Berlin | Germany</p></span>
+           <div class="d-flex align-items-center gap-2 mt-3 abt">
+               <span><img src="./assets/Ellipse 1.png" alt=""></span>
+               <span><p class="m-0 p-0 bold-text fs-4">Andrew</p>
+               <p class="m-0 p-0" class="fs-5" style="color:#656363">UX Design Tutor</p></span>
+              <span class="custom-hr"></span>
+               <p class="m-0 p-0 bold-text" style="color:#253095">5 Years experience</p>
+           </div>
+           <hr class="border border-dark">
+           <div class="d-flex  gap-5 meet ">
+             <h5 class="fs-4 responsive-heading ">Meet your host tutor</h5>
+            <button class="bg-dark text-white border-0 rounded-1 bold-text">View Host Profile</button>
+           </div>
+
+           <div class="mt-4">
+            <h3 class="fs-3 bold-text responsive-heading">What guests will learn</h3>
+            <div class="d-flex flex-column gap-3 learn">
+              <span class="d-flex align-items-center gap-2"> <img src="./assets/listcheck.png" alt=""><p class="m-0 p-0"><p class="p-style">
+                Learn prototyping in UX Design 
+              </p><p class="m-0 p-0 mx-2 p-style">Dec 5, 2024</p></p></span>
+              <span class="d-flex align-items-center gap-2"> <img src="./assets/listcheck.png" alt=""><p class="m-0 p-0"><p class="p-style">Learn Wireframing in UX Design</p> <p class="m-0 p-0 mx-2 p-style">Dec 5, 2024</p></p></span>
+              <span class="d-flex align-items-center gap-2"> <img src="./assets/listcheck.png" alt=""><p class="m-0 p-0"><p class="p-style">Learn Analytics in UX Design</p> <p class="m-0 p-0 mx-2 p-style">Dec 5, 2024</p></p></span>
+  
+             </div>
+           </div>
+       </div>
+
+       <div class="border border-dark p-4 rounded-4 cards-main custom-shadows ">
+<h3 class="fs-3 responsive-heading" style="font-weight: 600;">€165 Night</h3>
+<div >
+  <div style="overflow-x:auto; width: 100%; max-width: 600px;">
+    <table class="mb-3 new-table" style="min-width: 800px;">
+      <tr>
+        <td><label class="containers">
+          <input type="checkbox" checked="checked">
+          <span class="checkmark"></span>
+        </label></td>
+        <td><p>Check In</p>
+        <p>5/20/24</p></td>
+        <td><p>Check In</p>
+          <p>5/20/24</p></td>
+        <td><p>5 Days</p></td>
+      </tr>
+      <tr>
+        <td><label class="containers">
+          <input type="checkbox" checked="checked">
+          <span class="checkmark"></span>
+        </label></td>
+        <td><p>Check In</p>
+        <p>5/20/24</p></td>
+        <td><p>Check In</p>
+          <p>5/20/24</p></td>
+        <td><p>5 Days</p></td>
+      </tr>
+      <tr>
+        <td><label class="containers">
+          <input type="checkbox" checked="checked">
+          <span class="checkmark"></span>
+        </label></td>
+        <td><p>Check In</p>
+        <p>5/20/24</p></td>
+        <td><p>Check In</p>
+          <p>5/20/24</p></td>
+        <td><p>5 Days</p></td>
+      </tr>
+      <tr>
+        <td><label class="containers">
+          <input type="checkbox" checked="checked">
+          <span class="checkmark"></span>
+        </label></td>
+        <td><p>Check In</p>
+        <p>5/20/24</p></td>
+        <td><p>Check In</p>
+          <p>5/20/24</p></td>
+        <td><p>5 Days</p></td>
+      </tr>
+    </table>
+  </div>
+  
+
+<div class="d-flex flex-column gap-2">
+  <span class="d-flex justify-content-between pp"><p style="font-weight: 600;">€165 x 5 nights</p> <p>€826</p></span>
+<span class="d-flex justify-content-between pp"><p style="font-weight: 600;">Service fee</p> <p>€161</p></span>
+<span class="d-flex justify-content-between pp"><p   class="bold-text">Total</p> <p class="bold-text">€161</p></span>
+</div>
+
+
+<a href="./booking.html" class="a-style"><button class="d-block mx-auto bold-text rounded-5 border pt-2 pb-2 px-3 text-white " style="background-color: #32C11B;"><img src="./assets/Video Call (1).png" alt="" class="px-3">Book this Date</button></a>
+
+
+</div>
+</div>
+</div>
+<div class="d-flex justify-content-end mt-5">
+  <a href="./reports.html" class="a-style">
+    <button class="bg-danger text-white border-0 rounded-5 p-2">REPORT LISTING</button>
+
+  </a>
+
+</div>    <div class="center-it">
+  <button class="bg-transparent px-3  rounded-3 pt-1 pb-1 d-block mx-auto mt-5 " style="border: 1px solid #FF5A5F;">VIEW MORE</button>
+
+</div>
+    <div>
+      <h3 class="bold-text responsive-heading">Language of Instruction:</h3>
+      <ul class="custom-ul d-flex gap-5">
+        <li>English</li>
+        <li>French</li>
+        <li>Arabic</li>
+      </ul>
+    </div>
+    <div class="ideal">
+      <h3 class="bold-text responsive-heading">My Ideal guests</h3>
+      <h5 class="responsive-heading">Who are your typical guests?</h5>
+     <div class="d-flex ideal-guests">
+      <span class="d-flex gap-2 fs-5 align-items-center"><img src="./assets/check-green.png" alt=""><p class="p-style m-0 p-0">Students</p></span>
+      <span class="d-flex gap-2 fs-5 align-items-center"><img src="./assets/check-green.png" alt=""><p class="p-style m-0 p-0">Trainees</p></span>
+      <span class="d-flex gap-2 fs-5 align-items-center"><img src="./assets/check-green.png" alt=""><p class="p-style m-0 p-0">Entrepreneurs</p></span>
+     </div>
+    </div>
+    <div class="mt-3 sleep-guests">
+      <h3 class="bold-text responsive-heading">Where guests will sleep:</h3>
+     <div class="d-flex justify-content-center gap-5 mt-3 guests">
+      <span><img src="./assets/Rectangle 30.png" alt="">
+        <p class="text-center bold-text">Bedroom</p></span>
+        <span><img src="./assets/Rectangle 31.png" alt="">
+          <p class="text-center bold-text">Guest room</p></span>
+          <span><img src="./assets/Rectangle 32.png" alt="">
+            <p class="text-center bold-text">Spare room</p></span>
+     </div>
+      
+    </div>
+
+    <div class="mt-4 abt-listing">
+      <h3 class="bold-text responsive-heading">About this listing</h3>
+      <p class="mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen </p>
+      <p>book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with </p>
+      <p>desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+
+    <div class="mt-3 vid">
+      <h3 class="bold-text responsive-heading">Video of the B&B</h3>
+      <img src="./assets/image.jpg" alt="" class="mt-3 bnb-vid">
+    </div>
+
+    <div class="mt-3 guests-learn">
+      <h3 class="bold-text responsive-heading ">Where guests will stay and learn from</h3>
+      <span class="d-flex align-items-center gap-2"><img src="./assets/Address.png" alt=""><p class="m-0 p-0 bold-text">Berlin, Germany</p></span>
+      <p class="fs-5 w-500">where you’ll be</p>
+      <img src="./assets/map.png" alt="" class="mt-3 bnb-vid">
+    </div>
+   <div class="center-it">
+    <button class="bg-transparent px-3  rounded-3 pt-1 pb-1 d-block mx-auto mt-4" style="border: 1px solid #FF5A5F;">VIEW MORE</button>
+   </div>
+    <div class="booking-included">
+      <h3 class="bold-text responsive-heading">What’s included in the booking</h3>
+     
+     <div class="d-flex ideal-guests mt-3">
+      <span class="d-flex gap-2 fs-5 align-items-center"><img src="./assets/check-green.png" alt=""><p class="p-style">Lunch</p></span>
+      <span class="d-flex gap-2 fs-5 align-items-center"><img src="./assets/check-green.png" alt=""><p class="p-style p-0 m-0">Dinner </p></span>
+      <span class="d-flex gap-2 fs-5 align-items-center"><img src="./assets/check-green.png" alt=""><p class="p-style p-0 m-0">Bottled water</p></span>
+      <span class="d-flex gap-2 fs-5 align-items-center"><img src="./assets/check-green.png" alt=""><p class="p-style p-0 m-0">snacks</p></span>
+     </div>
+     
+    </div>
+
+    <div class="other-act">
+      <h3 class="bold-text responsive-heading">Other Activities</h3>
+     <h4>What other activities will your guests learn or enjoy?</h4>
+     <div class="d-flex mt-3  justify-content-between act">
+      <span class="d-flex gap-2 fs-5 align-items-center"><img src="./assets/check-green.png" alt=""><p class="p-style bold-text p-0 m-0">Reading</p></span>
+      <span class="d-flex gap-2 fs-5 align-items-center"><img src="./assets/check-green.png" alt=""><p class="p-style bold-text p-0 m-0">Photography </p></span>
+      <span class="d-flex gap-2 fs-5 align-items-center"><img src="./assets/check-green.png" alt=""><p class="p-style bold-text p-0 m-0"> Eat Out</p></span>
+     
+     </div>
+     <div class="d-flex justify-content-between mt-3 discuss">
+      <span class="d-flex gap-2 fs-5 align-items-center"><img src="./assets/check-green.png" alt=""><p class="p-style bold-text">Startup Discussion</p></span>
+      <span class="d-flex gap-2 fs-5 align-items-center gardn" style="margin-left: -90px;"><img src="./assets/check-green.png" alt=""><p class="p-style bold-text">Gardening </p></span>
+      <span class="d-flex gap-2 fs-5 align-items-center"><img src="./assets/check-green.png" alt=""><p class="p-style bold-text">  City Tour</p></span>
+     
+     </div>
+     
+    </div>
+    <div class="mt-3 not-included">
+      <h3 class="bold-text responsive-heading">What’s NOT included in the booking</h3>
+      <h5 class="mt-2 w-500">Let guest know what you do not provide</h5>
+      <span>
+        <ul>
+          <li class="p-style">It is a long established fact that a reader will be distracted </li>
+          <li class="p-style">It is a long established fact that a reader will be distracted </li>
+        </ul>
+      </span>
+    </div>
+    <div class="d-flex align-items-center justify-content-between avlbl">
+      <h3 class="bold-text responsive-heading">Availability</h3>
+      <div class="d-flex flex-column gap-3">
+        <span class="d-flex gap-3 book align-items-center"><img src="./assets/calendars.png" alt="">
+        <span><p>Available from</p>
+        <p class="bold-text p-style">01.06.2024</p></span>
+        </span>
+        <span class="d-flex gap-3 book align-items-center"><img src="./assets/times.png" alt="">
+          <span><p>Total Days</p>
+          <p class="bold-text p-style">8 Days</p></span>
+          </span>
+      </div>
+    <div class="d-flex gap-4 calendar">
+      <img src="./assets/05 May.png" alt="">
+      <img src="./assets/05 May.png" alt="">
+
+
+    </div>
+    </div> 
+    <div class="mt-3 times">
+      <h3 class="bold-text responsive-heading">Time</h3>
+      <div class="d-flex px-5 gap-5 mt-3 checkin">
+        <span class="d-flex gap-2 align-items-center">
+          <p class="bold-text p-style">Check in Time</p> <input type="time" name="" id="" class="input-color border-0 p-2">
+        </span>
+        <span class="d-flex gap-2 align-items-center">
+          <p class="bold-text p-style">Check out Time</p> <input type="time" name="" id="" class="input-color border-0 p-2">
+        </span>
+      </div>
+    </div>
+
+    <div class="d-flex min-stay align-items-center mt-3 gap-3 times">
+      <p class="bold-text">Minimum Stay Required</p><input type="text
+      " name="" id="" class="input-color border-0 ">
+    </div>
+    <div>
+      <div class="container m-0 p-0 mt-3 overflow-auto ament">
+        <h3 class="bold-text mt-3 responsive-heading">Amenities</h3>
+        <table class="tables text-left">
+          <thead>
+            <tr>
+              <th>Essentials</th>
+              <th>Kitchen</th>
+              <th>Bedroom</th>
+              <th>Bathroom</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Row 1 -->
+            <tr>
+              <td class="d-flex gap-2 "><img src="./assets/check-green.png" alt=""><p>Washing Machine</p></td>
+              <td><span class="d-flex align-items-center  gap-2 "><img src="./assets/check-green.png" alt=""><p >Washing Machine</p></span></td>
+              <td ><span class="d-flex align-items-center  gap-2"><img src="./assets/check-green.png" alt=""><p>Washing Machine</p></span></td>
+              <td ><span class="d-flex align-items-center  gap-2"><img src="./assets/check-green.png" alt=""><p>Washing Machine</p></span></td>
+
+            </tr>
+            <!-- Row 2 -->
+            <tr>
+              <td><span class="d-flex gap-2 "><img src="./assets/check-green.png" alt=""><p>Dryer</p></span></td>
+              <td><span class="d-flex gap-2"><img src="./assets/check-green.png" alt=""><p>Dryer</p></span></td>
+
+              <td><span class="d-flex gap-2"><img src="./assets/check-green.png" alt=""><p>Dryer</p></span></td>
+
+              <td><span class="d-flex gap-2"><img src="./assets/check-green.png" alt=""><p>Dryer</p></span></td>
+
+            </tr>
+            <!-- Row 3 -->
+          
+            <!-- Row 4 -->
+            <tr>
+              <td><span class="d-flex gap-2"><img src="./assets/check-green.png" alt=""><p>TV</p></span></td>
+
+              <td><span class="d-flex gap-2"><img src="./assets/check-green.png" alt=""><p>TV</p></span></td>
+
+              <td><span class="d-flex gap-2"><img src="./assets/check-green.png" alt=""><p>TV</p></span></td>
+
+              <td><span class="d-flex gap-2"><img src="./assets/check-green.png" alt=""><p>TV</p></span></td>
+
+            </tr>
+            <!-- Row 5 -->
+            <tr>
+              <td><span class="d-flex gap-2 align-items-center"><img src="./assets/check-green.png" alt=""><p>WIFI</p></span></td>
+
+              <td><span class="d-flex gap-2"><img src="./assets/check-green.png" alt=""><p>WIFI</p></span></td>
+
+              <td><span class="d-flex gap-2"><img src="./assets/check-green.png" alt=""><p>WIFI</p></span></td>
+
+              <td><span class="d-flex gap-2"><img src="./assets/check-green.png" alt=""><p>WIFI</p></span></td>
+
+            </tr>
+            <!-- Row 6 -->
+            <tr>
+              <td><span class="d-flex gap-2 align-items-center"><img src="./assets/check-green.png" alt=""><p>Washing Machine</p></span></td>
+
+              <td><span class="d-flex gap-2 align-items-center"><img src="./assets/check-green.png" alt=""><p>Washing Machine</p></span></td>
+
+              <td><span class="d-flex gap-2 align-items-center"><img src="./assets/check-green.png" alt=""><p>Washing Machine</p></span></td>
+
+              <td><span class="d-flex gap-2 align-items-center"><img src="./assets/check-green.png" alt=""><p>Washing Machine</p></span></td>
+
+            </tr>
+            <!-- Row 7 -->
+            <tr>
+              <td><span class="d-flex gap-2 align-items-center"><img src="./assets/check-green.png" alt=""><p>Washing Machine</p></span></td>
+
+              <td><span class="d-flex gap-2 align-items-center"><img src="./assets/check-green.png" alt=""><p>Washing Machine</p></span></td>
+              <td><span class="d-flex gap-2 align-items-center"><img src="./assets/check-green.png" alt=""><p>Washing Machine</p></span></td>
+              <td><span class="d-flex gap-2 align-items-center"><img src="./assets/check-green.png" alt=""><p>Washing Machine</p></span></td>
+            </tr>
+          
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="mt-3 guests">
+      <h3 class="bold-text responsive-heading">Guests Reviews</h3>
+
+      <div class="d-flex gap-5 mt-3 guests">
+       <div style="background: #EEEEEE;" class="border rounded-5 p-5 card-mains">
+        <div class="d-flex gap-5 align-items-center in-card" >
+          <span><img src="./assets/man.png" alt=""></span>
+          <span >
+            <span><p class="fs-4">Richard</p></span>
+            <span><p>Washington, USA</p></span>
+          </span>
+          <span class="text-end"> 
+            <span><img src="./assets/stars.png" alt=""></span>
+            <span ><p>4 days ago</p></span>
+            <span><p class="text-danger">stayed 2 nights</p></span>
+
+
+          </span>
+
+        </div>
+        
+        <p class="mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga eveniet autem vitae deleniti numquam illum, perspiciatis sapiente harum dicta necessitatibus aliquam veritatis ut reiciendis dolore cumque, aspernatur, asperiores temporibus quis.</p>
+       </div>
+
+       <div style="background: #EEEEEE;" class="border rounded-5 p-4 lister  card-mains">
+        <div class="d-flex gap-5 align-items-center align-items-center in-card" >
+          <span><img src="./assets/man.png" alt=""></span>
+          <span >
+            <span><p class="fs-4">Richard</p></span>
+            <span><p>Washington, USA</p></span>
+          </span>
+          <span class="text-end"> 
+            <span><img src="./assets/stars.png" alt=""></span>
+            <span ><p>4 days ago</p></span>
+            <span><p class="text-danger">stayed 2 nights</p></span>
+
+
+          </span>
+
+        </div>
+        
+        <p class="mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga eveniet autem vitae deleniti numquam illum, perspiciatis sapiente harum dicta necessitatibus aliquam veritatis ut reiciendis dolore cumque, aspernatur, asperiores temporibus quis.</p>
+       </div>
+      </div>
+        <button class="d-block mx-auto mt-5 border-0 bg-transparent view-all" style="color:#0038FF"><u>View All</u></button>
+
+    </div>
+
+   <div class="house-rules">
+    <div class="mt-3">
+      <h3 class="bold-text responsive-heading">House Rules</h3>
+      <div class="d-flex gap-5 mt-3 pets">
+        <span class="d-flex align-items-center gap-2">
+
+          <img src="./assets/paw.png" alt="">
+          <p class="fs-5 p-style">Pets are allowed</p>
+        </span>
+        <span class="d-flex align-items-center gap-2">
+          <img src="./assets/smoking.png" alt="">
+          <p class="fs-5 p-style">Smoking is not allowed</p>
+        </span>
+      </div>
+    </div>
+    <div>
+      <h3 class="bold-text mt-3 responsive-heading">Cancellation Policy</h3>
+      <p>Cancel before March 25 for a partial refund</p>
+      <p class="mt-2">Cancel before March 25 for a partial refund</p>
+    </div>
+   </div>
+    <div class="similarity">
+      <h3 class="bold-text mt-3 responsive-heading">Similar Listings</h3>
+      
+        <div class="rest-listings d-flex mx-5 mt-3 gap-3">
+          <div class="host-tutor-main d-flex flex-column align-items-center w-80 pt-3 pb-3 custom-shadow host-tuting">
+            <img src="./assets/host-tutor.png" alt="" style="width: 90%;">
+          <span class="w-100 px-3 pt-2">
+            <h2 class="responsive-heading">Host Tutor</h2>
+            <p class="h5 m-1">Learn Graphic Design </p>
+            <p class="h5 m-1">London, United Kingdom</p>
+            <p class="h5 m-1">Dec 12 - Dec 17, 2024</p>
+            <p class="h5 m-1" >€ 520 |  Adult Guest</p>
+            <p class="h5 m-1"><img src="./assets//Video Call.png" alt=""> Book via Video</p>
+          </span>
+      
+      </div>
+      <div class="host-tutor-main d-flex flex-column align-items-center w-80 pt-3 pb-3 custom-shadow host-tuting">
+        <img src="./assets/host-tutor.png" alt="" style="width: 90%;">
+      <span class="w-100 px-3 pt-2">
+        <h2>Host Tutor</h2>
+        <p class="h5 m-1">Learn Graphic Design </p>
+        <p class="h5 m-1">London, United Kingdom</p>
+        <p class="h5 m-1">Dec 12 - Dec 17, 2024</p>
+        <p class="h5 m-1" >€ 520 |  Adult Guest</p>
+        <p class="h5 m-1"><img src="./assets//Video Call.png" alt=""> Book via Video</p>
+      </span>
+  
+  </div>
+  <div class="host-tutor-main d-flex flex-column align-items-center w-80 pt-3 pb-3 custom-shadow  gap-4 host-tuting">
+    <img src="./assets/host-tutor.png" alt="" style="width: 90%;">
+  <span class="w-100 px-3 pt-2">
+    <h2>Host Tutor</h2>
+    <p class="h5 m-1">Learn Graphic Design </p>
+    <p class="h5 m-1">London, United Kingdom</p>
+    <p class="h5 m-1">Dec 12 - Dec 17, 2024</p>
+    <p class="h5 m-1" >€ 520 |  Adult Guest</p>
+    <p class="h5 m-1"><img src="./assets//Video Call.png" alt=""> Book via Video</p>
+  </span>
+
+</div>
+<div class="host-tutor-main d-flex flex-column align-items-center w-80 pt-3 pb-3 custom-shadow host-tuting">
+  <img src="./assets/host-tutor.png" alt="" style="width: 90%;">
+<span class="w-100 px-3 pt-2">
+  <h2>Host Tutor</h2>
+  <p class="h5 m-1">Learn Graphic Design </p>
+  <p class="h5 m-1">London, United Kingdom</p>
+  <p class="h5 m-1">Dec 12 - Dec 17, 2024</p>
+  <p class="h5 m-1" >€ 520 |  Adult Guest</p>
+  <p class="h5 m-1"><img src="./assets//Video Call.png" alt=""> Book via Video</p>
+</span>
+
+</div>
+    </div>
+
+    <div>
+      <h2 class="bold-text  mt-5 d-flex justify-content-center qoute responsive-heading">Meet Great People at <p class="text-danger px-2"> Top Destinations </p>  around the world</h2>
+      <img src="./assets/bg.png" alt="" class="mt-2 border rounded-4 bnb-vid">
+    </div>
+    
+    </div>
+   
+    </div>
+
+  <div class="pl-0 m">
+    <div class="footer  text-white position-absolute pt-4 pb-4 text-center mt-4">
+      <div class="container d-flex justify-content-between align-items-center">
+          <div class="logo">
+              <img src="./assets/footerlogo.png" alt="">
+          </div>
+          <div class="tabs d-flex gap-4">
+              <ul>
+                  <li>Blog</li>
+              </ul>
+              <ul>
+                  <li>Social</li>
+                  <li>Stripe</li>
+                  <li>Social</li>
+                  <li>X(Twitter)</li>
+                  <li>Flutterwave</li>
+              </ul>
+              <ul>
+                  <li>Legal</li>
+                  <li>Terms</li>
+                  <li>Privacy</li>
+                  <li>Impressum</li>
+              </ul>
+          </div>
+      </div>
+      <span class="d-flex gap-2 justify-content-center">
+          <p><p class="bold-text">BnB Tutor</p> © 2024 Hotelbuuk Technologies. Germany</p>
+      </span>
+  </div>
+  
+  </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

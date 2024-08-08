@@ -1,0 +1,1928 @@
+.bnbtutor.main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.bnbtutor .searchFormSection {
+  display: flex;
+  flex-direction: column;
+}
+.bnbtutor .headerContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px;
+  margin: 37px auto 42px;
+  width: 88.96%;
+  max-width: 1281.0125732422px;
+}
+@media (max-width: 1399px) {
+  .bnbtutor .headerContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 10px;
+  }
+}
+.bnbtutor .mainTitle {
+  margin: 5px 0 0;
+  width: 156px;
+  font: 700 24px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 1399px) {
+  .bnbtutor .mainTitle {
+    margin: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .bnbtutor .mainTitle {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .mainTitle {
+    font-size: 20px;
+  }
+}
+.bnbtutor .formContentBox {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 6px;
+  width: 684px;
+  min-width: 0;
+  border-radius: 28.5px;
+  outline: 1px solid black;
+  outline-offset: -1px;
+}
+@media (max-width: 1399px) {
+  .bnbtutor .formContentBox {
+    margin: 0;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.bnbtutor .formRow {
+  display: flex;
+  gap: 0 27px;
+  margin: 7px 37px 8px;
+}
+@media (max-width: 991px) {
+  .bnbtutor .formRow {
+    margin: 7px 32px 8px;
+  }
+}
+@media (max-width: 767px) {
+  .bnbtutor .formRow {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 27px;
+  }
+}
+@media (max-width: 575px) {
+  .bnbtutor .formRow {
+    margin: 7px 16px 8px;
+  }
+}
+@media (max-width: 383px) {
+  .bnbtutor .formRow {
+    margin: 7px 8px 8px;
+  }
+}
+.bnbtutor .skillsColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px 0;
+  margin: 0 0 1px;
+  width: 104px;
+  min-width: 0;
+}
+@media (max-width: 767px) {
+  .bnbtutor .skillsColumn {
+    margin: 0;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.bnbtutor .skillsLabel {
+  font: 600 16px/1.25 Montserrat, Helvetica, Arial, serif;
+  color: black;
+}
+.bnbtutor .skillsHighlightBox {
+  font: 500 16px/1.25 Montserrat, Helvetica, Arial, serif;
+  color: #656363;
+}
+.bnbtutor .skillsHighlightBox_span0 {
+  font: 500 1em/1.25 Montserrat, Helvetica, Arial, serif;
+  color: #646363;
+}
+.bnbtutor .skillsHighlightBox_span1 {
+  font: 700 1em/1.25 Montserrat, Helvetica, Arial, serif;
+  color: #646363;
+}
+.bnbtutor .dateColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px 0;
+  margin: 0 0 1px;
+  width: 138px;
+  min-width: 0;
+}
+@media (max-width: 767px) {
+  .bnbtutor .dateColumn {
+    margin: 0;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.bnbtutor .dateLabel {
+  font: 600 16px/1.25 Montserrat, Helvetica, Arial, serif;
+  color: black;
+}
+.bnbtutor .dateSearchText {
+  font: 500 16px/1.25 Montserrat, Helvetica, Arial, serif;
+  color: #656363;
+}
+.bnbtutor .destinationColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px 0;
+  margin: 0 0 1px;
+  width: 163px;
+  min-width: 0;
+}
+@media (max-width: 767px) {
+  .bnbtutor .destinationColumn {
+    margin: 0;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.bnbtutor .destinationLabel {
+  display: flex;
+  justify-content: center;
+  font: 600 16px/1.25 Montserrat, Helvetica, Arial, serif;
+  color: black;
+  text-align: center;
+}
+.bnbtutor .destinationSearchText {
+  font: 500 16px/1.25 Montserrat, Helvetica, Arial, serif;
+  color: #656363;
+}
+.bnbtutor .searchBtn {
+  display: flex;
+  justify-content: center;
+  min-width: 124px;
+  font: 500 20px/0.7 Montserrat, Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  background-color: #a50e0e;
+  border-radius: 21px;
+  padding: 14px 26px;
+}
+@media (max-width: 767px) {
+  .bnbtutor .searchBtn {
+    width: 100%;
+    min-width: unset;
+  }
+}
+.bnbtutor .userActionsRow {
+  display: flex;
+  align-items: center;
+  gap: 0 27px;
+  margin: 5px 0 16px;
+  width: 341px;
+  min-width: 0;
+}
+@media (max-width: 1399px) {
+  .bnbtutor .userActionsRow {
+    margin: 0;
+    width: 100%;
+    min-width: unset;
+  }
+}
+@media (max-width: 575px) {
+  .bnbtutor .userActionsRow {
+    -moz-column-gap: 16px;
+    column-gap: 16px;
+  }
+}
+@media (max-width: 383px) {
+  .bnbtutor .userActionsRow {
+    flex-direction: column;
+    gap: 30px 8px;
+  }
+}
+.bnbtutor .languageLoginRow {
+  display: flex;
+  gap: 0 27px;
+  width: 187px;
+  min-width: 0;
+}
+@media (max-width: 575px) {
+  .bnbtutor .languageLoginRow {
+    -moz-column-gap: 16px;
+    column-gap: 16px;
+  }
+}
+@media (max-width: 383px) {
+  .bnbtutor .languageLoginRow {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.bnbtutor .languageToggle {
+  font: 700 20px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: #a50e0e;
+}
+@media (max-width: 991px) {
+  .bnbtutor .languageToggle {
+    align-items: flex-start;
+    font-size: 18px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .languageToggle {
+    font-size: 16px;
+  }
+}
+.bnbtutor .loginToggle {
+  font: 700 20px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: #a50e0e;
+}
+@media (max-width: 991px) {
+  .bnbtutor .loginToggle {
+    align-items: flex-start;
+    font-size: 18px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .loginToggle {
+    font-size: 16px;
+  }
+}
+.bnbtutor .signupBtn {
+  display: flex;
+  justify-content: center;
+  min-width: 127px;
+  font: 500 20px/0.7 Montserrat, Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  background-color: #a50e0e;
+  border-radius: 21px;
+  padding: 14px 26px;
+}
+@media (max-width: 383px) {
+  .bnbtutor .signupBtn {
+    width: 100%;
+    min-width: unset;
+  }
+}
+.bnbtutor .heroSection {
+  display: flex;
+  flex-direction: column;
+}
+.bnbtutor .contentWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 67px 0;
+  margin: 0 auto;
+  width: 89.79%;
+  max-width: 1292.9749755859px;
+}
+@media (max-width: 383px) {
+  .bnbtutor .contentWrapper {
+    gap: 50px 0;
+  }
+}
+@media (max-width: 991px) {
+  .bnbtutor .headline_box {
+    align-items: flex-start;
+  }
+}
+.bnbtutor .headline {
+  font: 700 64px/1.16 "Playfair Display", Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .bnbtutor .headline {
+    font-size: 52px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .headline {
+    font-size: 36px;
+  }
+}
+.bnbtutor .headline_span0 {
+  font: 700 1em/1.16 "Playfair Display", Helvetica, Arial, serif;
+}
+.bnbtutor .headline_span1 {
+  font: 700 1em/1.16 "Playfair Display", Helvetica, Arial, serif;
+  color: #a50e0e;
+}
+.bnbtutor .headline_span2 {
+  font: 700 1em/1.16 "Playfair Display", Helvetica, Arial, serif;
+}
+.bnbtutor .buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px;
+  margin: 0 15px 0 auto;
+  width: 417px;
+  max-width: 85%;
+}
+@media (max-width: 479px) {
+  .bnbtutor .buttonGroup {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 10px;
+  }
+}
+@media (max-width: 383px) {
+  .bnbtutor .buttonGroup {
+    margin: 0 8px 0 auto;
+  }
+}
+.bnbtutor .heroImage {
+  margin: 0 0 2px;
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (max-width: 479px) {
+  .bnbtutor .heroImage {
+    margin: 0;
+    width: 100%;
+    max-width: 40px;
+  }
+}
+.bnbtutor .monthButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 1px;
+  min-width: 142px;
+  background-color: #dcdbdb;
+  border-radius: 8px;
+  padding: 6.5px 15px;
+}
+@media (max-width: 479px) {
+  .bnbtutor .monthButton {
+    width: 100%;
+    min-width: unset;
+  }
+}
+.bnbtutor .monthButtonText {
+  margin: 1px 0 0;
+  min-width: 0;
+  font: 500 24px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: black;
+}
+.bnbtutor .monthButtonIcon {
+  width: 30px;
+  min-width: 0;
+  height: 30px;
+}
+.bnbtutor .priceButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 11px;
+  min-width: 133px;
+  background-color: #dcdbdb;
+  border-radius: 8px;
+  padding: 6.5px 15px;
+}
+@media (max-width: 479px) {
+  .bnbtutor .priceButton {
+    width: 100%;
+    min-width: unset;
+  }
+}
+.bnbtutor .priceButtonText {
+  margin: 1px 0 0;
+  min-width: 0;
+  font: 500 24px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: black;
+}
+.bnbtutor .priceButtonIcon {
+  width: 30px;
+  min-width: 0;
+  height: 30px;
+}
+.bnbtutor .hostTutorSection {
+  display: flex;
+  flex-direction: column;
+}
+.bnbtutor .columnContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 23px 0;
+  margin: 40px auto;
+  width: 88.61%;
+  max-width: 1275.9749755859px;
+}
+.bnbtutor .rowContainer {
+  display: flex;
+  gap: 0 28px;
+}
+@media (max-width: 1399px) {
+  .bnbtutor .rowContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 28px;
+  }
+}
+.bnbtutor .listingCard {
+  display: flex;
+  flex-direction: column;
+  width: 624px;
+  min-width: 0;
+  background-color: #d9d9d9;
+  border-radius: 17px;
+}
+@media (max-width: 1399px) {
+  .bnbtutor .listingCard {
+    width: 100%;
+    min-width: unset;
+  }
+}
+.bnbtutor .listingContentRow {
+  display: flex;
+  align-items: center;
+  gap: 0 29px;
+  margin: 11px 23px 26px 29px;
+}
+@media (max-width: 575px) {
+  .bnbtutor .listingContentRow {
+    flex-direction: column;
+    gap: 30px 16px;
+    margin: 11px 16px 26px;
+  }
+}
+@media (max-width: 383px) {
+  .bnbtutor .listingContentRow {
+    margin: 11px auto 26px;
+  }
+}
+.bnbtutor .listingImageContainer {
+  display: flex;
+  flex-direction: column;
+  width: 222px;
+  min-width: 0;
+  background: var(--src) center center/cover no-repeat;
+  border-radius: 8px;
+}
+@media (max-width: 575px) {
+  .bnbtutor .listingImageContainer {
+    width: 100%;
+    min-width: unset;
+  }
+}
+.bnbtutor .listingImageColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 134px 0;
+  margin: 10px 9px 4px 10px;
+}
+@media (max-width: 575px) {
+  .bnbtutor .listingImageColumn {
+    gap: 80px 0;
+  }
+}
+@media (max-width: 383px) {
+  .bnbtutor .listingImageColumn {
+    gap: 50px 0;
+    margin: 10px 8px 4px;
+  }
+}
+.bnbtutor .listingImageRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px;
+  width: 100%;
+}
+@media (max-width: 383px) {
+  .bnbtutor .listingImageRow {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+  }
+}
+.bnbtutor .smallListingImage {
+  width: 34px;
+  height: 34px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.bnbtutor .smallListingImage1 {
+  width: 35px;
+  height: 34px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.bnbtutor .largeListingImage {
+  width: 34px;
+  height: 34px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.bnbtutor .listingTextColumn {
+  display: flex;
+  flex-direction: column;
+  width: 321px;
+  min-width: 0;
+}
+@media (max-width: 575px) {
+  .bnbtutor .listingTextColumn {
+    width: 100%;
+    min-width: unset;
+  }
+}
+.bnbtutor .listingHeaderRow {
+  display: flex;
+  gap: 0 9px;
+  margin: 0 0 0 auto;
+  width: 174px;
+  max-width: 85%;
+}
+@media (max-width: 383px) {
+  .bnbtutor .listingHeaderRow {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+  }
+}
+.bnbtutor .listingSubtitle {
+  display: flex;
+  align-items: center;
+  margin: 1.5px 0 0;
+  font: 600 20px/1.14 Roboto, Helvetica, Arial, serif;
+  color: red;
+}
+@media (max-width: 991px) {
+  .bnbtutor .listingSubtitle {
+    font-size: 18px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .listingSubtitle {
+    font-size: 16px;
+  }
+}
+.bnbtutor .listingIcon {
+  margin: 0 0 0.5px;
+  width: 24px;
+  height: 24px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.bnbtutor .listingDetailsColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 7px 0;
+  margin: 6.5px 12px 0 0;
+}
+@media (max-width: 383px) {
+  .bnbtutor .listingDetailsColumn {
+    margin: 6.5px 8px 0 0;
+  }
+}
+.bnbtutor .listingTitle {
+  display: flex;
+  align-items: center;
+  font: 600 28px/1.28 "Montagu Slab", Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .bnbtutor .listingTitle {
+    font-size: 26px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .listingTitle {
+    font-size: 22px;
+  }
+}
+.bnbtutor .listingDetailsSubColumn {
+  display: flex;
+  flex-direction: column;
+}
+.bnbtutor .listingMediumTitle {
+  display: flex;
+  align-items: center;
+  font: 500 24px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .bnbtutor .listingMediumTitle {
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .listingMediumTitle {
+    font-size: 20px;
+  }
+}
+.bnbtutor .listingMediumTitle1 {
+  display: flex;
+  align-items: center;
+  margin: 0 31px 0 0;
+  font: 500 24px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .bnbtutor .listingMediumTitle1 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 575px) {
+  .bnbtutor .listingMediumTitle1 {
+    margin: 0 16px 0 0;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .listingMediumTitle1 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 383px) {
+  .bnbtutor .listingMediumTitle1 {
+    margin: 0 8px 0 0;
+  }
+}
+.bnbtutor .listingPrice {
+  display: flex;
+  align-items: center;
+  font: 600 24px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .bnbtutor .listingPrice {
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .listingPrice {
+    font-size: 20px;
+  }
+}
+.bnbtutor .listingFooterRow {
+  display: flex;
+  gap: 0 23px;
+  margin: 12px 0 0;
+}
+@media (max-width: 575px) {
+  .bnbtutor .listingFooterRow {
+    -moz-column-gap: 16px;
+    column-gap: 16px;
+  }
+}
+@media (max-width: 383px) {
+  .bnbtutor .listingFooterRow {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+  }
+}
+.bnbtutor .bookViaVideoIcon {
+  width: 30px;
+  height: 30px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.bnbtutor .bookViaVideoText {
+  display: flex;
+  align-items: center;
+  margin: 0 0 1px;
+  font: 600 24px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .bnbtutor .bookViaVideoText {
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .bookViaVideoText {
+    font-size: 20px;
+  }
+}
+.bnbtutor .similarListingsSection {
+  display: flex;
+  flex-direction: column;
+}
+.bnbtutor .listingsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px 0;
+  margin: 0 auto;
+  width: 90.35%;
+  max-width: 1301.0374755859px;
+}
+.bnbtutor .listingsHeader {
+  width: 96.93%;
+  font: 700 36px/1.22 Montserrat, Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .bnbtutor .listingsHeader {
+    align-items: flex-start;
+    font-size: 32px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .listingsHeader {
+    font-size: 30px;
+  }
+}
+.bnbtutor .listingsGrid {
+  display: flex;
+  gap: 0 27px;
+  width: 100%;
+}
+@media (max-width: 1199px) {
+  .bnbtutor .listingsGrid {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 27px;
+  }
+}
+.bnbtutor .listingCard1 {
+  display: flex;
+  flex-direction: column;
+  width: 305px;
+  min-width: 0;
+  background-color: white;
+  box-shadow: 6px 8px 6.5px 4px rgba(0, 0, 0, 0.247);
+}
+@media (max-width: 1199px) {
+  .bnbtutor .listingCard1 {
+    width: 100%;
+    min-width: unset;
+  }
+}
+.bnbtutor .listingContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 13px 13px 25px;
+}
+@media (max-width: 383px) {
+  .bnbtutor .listingContent {
+    margin: 13px 8px 25px;
+  }
+}
+.bnbtutor .listingImageWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: var(--src) center center/cover no-repeat;
+  border-radius: 8px;
+}
+.bnbtutor .imageRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px;
+  margin: 6px 7px 182px;
+}
+@media (max-width: 991px) {
+  .bnbtutor .imageRow {
+    margin: 6px 7px 150px;
+  }
+}
+@media (max-width: 575px) {
+  .bnbtutor .imageRow {
+    margin: 6px 7px 80px;
+  }
+}
+@media (max-width: 383px) {
+  .bnbtutor .imageRow {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+    margin: 6px 7px 50px;
+  }
+}
+.bnbtutor .listingThumbnail {
+  width: 34px;
+  height: 34px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.bnbtutor .listingThumbnailAlt {
+  width: 35px;
+  height: 34px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.bnbtutor .listingDetails {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0 0;
+  width: 92.11%;
+}
+.bnbtutor .title {
+  display: flex;
+  align-items: center;
+  font: 600 28px/1.28 "Montagu Slab", Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .bnbtutor .title {
+    font-size: 26px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .title {
+    font-size: 22px;
+  }
+}
+.bnbtutor .listingSubtitle1 {
+  display: flex;
+  align-items: center;
+  margin: 9px 38px 0 0;
+  font: 500 20px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .bnbtutor .listingSubtitle1 {
+    margin: 9px 32px 0 0;
+    font-size: 18px;
+  }
+}
+@media (max-width: 575px) {
+  .bnbtutor .listingSubtitle1 {
+    margin: 9px 16px 0 0;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .listingSubtitle1 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 383px) {
+  .bnbtutor .listingSubtitle1 {
+    margin: 9px 8px 0 0;
+  }
+}
+.bnbtutor .listingLocation {
+  display: flex;
+  align-items: center;
+  margin: 8px 0 0;
+  font: 500 20px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .bnbtutor .listingLocation {
+    font-size: 18px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .listingLocation {
+    font-size: 16px;
+  }
+}
+.bnbtutor .listingDates {
+  display: flex;
+  align-items: center;
+  margin: 8px 25px 0 0;
+  font: 500 20px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .bnbtutor .listingDates {
+    font-size: 18px;
+  }
+}
+@media (max-width: 575px) {
+  .bnbtutor .listingDates {
+    margin: 8px 16px 0 0;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .listingDates {
+    font-size: 16px;
+  }
+}
+@media (max-width: 383px) {
+  .bnbtutor .listingDates {
+    margin: 8px 8px 0 0;
+  }
+}
+.bnbtutor .listingPrice1 {
+  display: flex;
+  align-items: center;
+  margin: 8px 0 0;
+  font: 600 20px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .bnbtutor .listingPrice1 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .listingPrice1 {
+    font-size: 16px;
+  }
+}
+.bnbtutor .listingExtrasRow {
+  display: flex;
+  gap: 0 23px;
+  margin: 15px 0 0;
+  width: 94.98%;
+}
+@media (max-width: 575px) {
+  .bnbtutor .listingExtrasRow {
+    -moz-column-gap: 16px;
+    column-gap: 16px;
+  }
+}
+@media (max-width: 383px) {
+  .bnbtutor .listingExtrasRow {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+  }
+}
+.bnbtutor .videoThumbnail {
+  width: 30px;
+  height: 30px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.bnbtutor .videoBooking {
+  display: flex;
+  align-items: center;
+  margin: 2px 0 4px;
+  font: 600 20px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .bnbtutor .videoBooking {
+    font-size: 18px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .videoBooking {
+    font-size: 16px;
+  }
+}
+.bnbtutor .gamerStaySection {
+  display: flex;
+  flex-direction: column;
+}
+.bnbtutor .contentWrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px 0;
+  margin: 40px auto 0;
+  width: 88.61%;
+  max-width: 1275.9749755859px;
+}
+.bnbtutor .loadMoreBtn {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 189px;
+  max-width: 100%;
+  font: 400 24px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  background-color: #006836;
+  border-radius: 15px;
+  padding: 13px 22px;
+}
+.bnbtutor .heroContentRow {
+  display: flex;
+  align-items: center;
+  gap: 0 26px;
+  width: 99.84%;
+}
+@media (max-width: 1199px) {
+  .bnbtutor .heroContentRow {
+    flex-direction: column;
+    gap: 30px 26px;
+  }
+}
+.bnbtutor .heroTextCol {
+  display: flex;
+  flex-direction: column;
+  gap: 28px 0;
+  width: 598px;
+  min-width: 0;
+}
+@media (max-width: 1199px) {
+  .bnbtutor .heroTextCol {
+    width: 100%;
+    min-width: unset;
+  }
+}
+.bnbtutor .gamerStayHeroTitle {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 1px;
+  font: 700 64px/1.2 "Playfair Display", Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .bnbtutor .gamerStayHeroTitle {
+    font-size: 52px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .gamerStayHeroTitle {
+    font-size: 36px;
+  }
+}
+.bnbtutor .gamerStayMediumTitle {
+  display: flex;
+  align-items: center;
+  margin: 0 3px 0 0;
+  font: 400 24px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: #656363;
+}
+@media (max-width: 991px) {
+  .bnbtutor .gamerStayMediumTitle {
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .gamerStayMediumTitle {
+    font-size: 20px;
+  }
+}
+.bnbtutor .gamerStayImage {
+  width: 650px;
+  min-width: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (max-width: 1199px) {
+  .bnbtutor .gamerStayImage {
+    width: 100%;
+    min-width: unset;
+    max-width: 650px;
+  }
+}
+.bnbtutor .farmStayRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px;
+  width: 100%;
+}
+@media (max-width: 1199px) {
+  .bnbtutor .farmStayRow {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 10px;
+  }
+}
+.bnbtutor .farmStayImage {
+  width: 590px;
+  min-width: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (max-width: 1199px) {
+  .bnbtutor .farmStayImage {
+    width: 100%;
+    min-width: unset;
+    max-width: 590px;
+  }
+}
+.bnbtutor .farmStayTextCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 27px 0;
+  margin: 1px 0 1.5px;
+  width: 624px;
+  min-width: 0;
+}
+@media (max-width: 1199px) {
+  .bnbtutor .farmStayTextCol {
+    margin: 0;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.bnbtutor .farmStayHeroTitle {
+  display: flex;
+  align-items: center;
+  width: 95.51%;
+  font: 700 64px/1.2 "Playfair Display", Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .bnbtutor .farmStayHeroTitle {
+    font-size: 52px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .farmStayHeroTitle {
+    font-size: 36px;
+  }
+}
+.bnbtutor .farmStayMediumTitle {
+  display: flex;
+  align-items: center;
+  font: 400 24px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: #656363;
+}
+@media (max-width: 991px) {
+  .bnbtutor .farmStayMediumTitle {
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .farmStayMediumTitle {
+    font-size: 20px;
+  }
+}
+.bnbtutor .heroSec {
+  display: flex;
+  flex-direction: column;
+}
+.bnbtutor .contentWrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto 0;
+  width: 88.13%;
+  max-width: 1269.0625px;
+}
+.bnbtutor .mainHeading {
+  display: flex;
+  align-items: center;
+  width: 98.9%;
+  font: 700 64px/1.21 "Playfair Display", Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .bnbtutor .mainHeading {
+    font-size: 52px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .mainHeading {
+    font-size: 36px;
+  }
+}
+.bnbtutor .subHeading {
+  display: flex;
+  align-items: center;
+  margin: 28px 0 0;
+  font: 400 24px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: #656363;
+}
+@media (max-width: 991px) {
+  .bnbtutor .subHeading {
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .subHeading {
+    font-size: 20px;
+  }
+}
+.bnbtutor .heroImage1 {
+  margin: 40px 0 0;
+  width: 99.76%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.bnbtutor .learningContentSection {
+  display: flex;
+  flex-direction: column;
+}
+.bnbtutor .contentWrapper3 {
+  display: flex;
+  flex-direction: column;
+  gap: 28px 0;
+  margin: 40px auto 0;
+  width: 88.75%;
+  max-width: 1278px;
+}
+.bnbtutor .mainTitle1 {
+  display: flex;
+  align-items: center;
+  font: 700 36px/1.22 Montserrat, Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .bnbtutor .mainTitle1 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .mainTitle1 {
+    font-size: 30px;
+  }
+}
+.bnbtutor .flexRowContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px;
+  margin: 0 0 0 1px;
+}
+@media (max-width: 767px) {
+  .bnbtutor .flexRowContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 10px;
+  }
+}
+.bnbtutor .gridColumn1 {
+  display: grid;
+  align-content: start;
+  gap: 29px 68px;
+  width: 470px;
+  min-width: 0;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+@media (max-width: 991px) {
+  .bnbtutor .gridColumn1 {
+    -moz-column-gap: 32px;
+    column-gap: 32px;
+  }
+}
+@media (max-width: 767px) {
+  .bnbtutor .gridColumn1 {
+    width: 100%;
+    min-width: unset;
+  }
+}
+@media (max-width: 575px) {
+  .bnbtutor .gridColumn1 {
+    -moz-column-gap: 16px;
+    column-gap: 16px;
+  }
+}
+@media (max-width: 383px) {
+  .bnbtutor .gridColumn1 {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+  }
+}
+.bnbtutor .gridItem {
+  display: flex;
+  align-items: flex-end;
+  grid-row: span 1;
+  grid-column: span 1;
+  font: 500 36px/1.22 Montserrat, Helvetica, Arial, serif;
+  color: #253095;
+  text-decoration: underline;
+}
+@media (max-width: 991px) {
+  .bnbtutor .gridItem {
+    font-size: 32px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .gridItem {
+    font-size: 30px;
+  }
+}
+.bnbtutor .gridColumn2 {
+  display: grid;
+  align-content: start;
+  gap: 29px 68px;
+  width: 470px;
+  min-width: 0;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+@media (max-width: 991px) {
+  .bnbtutor .gridColumn2 {
+    -moz-column-gap: 32px;
+    column-gap: 32px;
+  }
+}
+@media (max-width: 767px) {
+  .bnbtutor .gridColumn2 {
+    width: 100%;
+    min-width: unset;
+  }
+}
+@media (max-width: 575px) {
+  .bnbtutor .gridColumn2 {
+    -moz-column-gap: 16px;
+    column-gap: 16px;
+  }
+}
+@media (max-width: 383px) {
+  .bnbtutor .gridColumn2 {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+  }
+}
+.bnbtutor .flexColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 29px 0;
+  width: 201px;
+  min-width: 0;
+}
+@media (max-width: 767px) {
+  .bnbtutor .flexColumn {
+    width: 100%;
+    min-width: unset;
+  }
+}
+.bnbtutor .columnBigTitle {
+  display: flex;
+  align-items: flex-end;
+  font: 500 36px/1.22 Montserrat, Helvetica, Arial, serif;
+  color: #253095;
+  text-decoration: underline;
+}
+@media (max-width: 991px) {
+  .bnbtutor .columnBigTitle {
+    font-size: 32px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .columnBigTitle {
+    font-size: 30px;
+  }
+}
+.bnbtutor .aboutBnbTutorSection {
+  display: flex;
+  flex-direction: column;
+}
+.bnbtutor .contentWrapper4 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px 0;
+  margin: 26px auto 0;
+  width: 88.68%;
+  max-width: 1276.9875488281px;
+}
+.bnbtutor .bigTitle {
+  display: flex;
+  align-items: center;
+  font: 700 36px/1.22 Montserrat, Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .bnbtutor .bigTitle {
+    font-size: 32px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .bigTitle {
+    font-size: 30px;
+  }
+}
+.bnbtutor .contentBox {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  border-radius: 20px;
+}
+.bnbtutor .descriptionWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 35px 0;
+  margin: 37.5px auto 57px;
+  width: 92.87%;
+}
+@media (max-width: 383px) {
+  .bnbtutor .descriptionWrapper {
+    margin: 37.5px auto 50px;
+  }
+}
+.bnbtutor .heroTitle {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 4px;
+  font: 700 48px/1.21 "Playfair Display", Helvetica, Arial, serif;
+  color: #f6fb00;
+}
+@media (max-width: 991px) {
+  .bnbtutor .heroTitle {
+    font-size: 44px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .heroTitle {
+    font-size: 36px;
+  }
+}
+.bnbtutor .informationWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 10px;
+  margin: 0 3px 0 0;
+}
+@media (max-width: 1199px) {
+  .bnbtutor .informationWrapper {
+    flex-direction: column;
+    gap: 30px 10px;
+  }
+}
+.bnbtutor .descriptionText {
+  display: flex;
+  align-items: center;
+  width: 606px;
+  font: 500 24px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 1199px) {
+  .bnbtutor .descriptionText {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .bnbtutor .descriptionText {
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .descriptionText {
+    font-size: 20px;
+  }
+}
+.bnbtutor .image8 {
+  width: 516px;
+  min-width: 0;
+  border-radius: 20px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (max-width: 1199px) {
+  .bnbtutor .image8 {
+    width: 100%;
+    min-width: unset;
+    max-width: 516px;
+  }
+}
+.bnbtutor .faqSection {
+  display: flex;
+  flex-direction: column;
+}
+.bnbtutor .faqContentCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+  width: 88.89%;
+  max-width: 1280.0125732422px;
+}
+.bnbtutor .faqTitle {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font: 700 36px/1.22 Montserrat, Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .bnbtutor .faqTitle {
+    font-size: 32px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .faqTitle {
+    font-size: 30px;
+  }
+}
+.bnbtutor .faqLine {
+  margin: 21px 0 0;
+  width: 99.22%;
+  height: 1px;
+  min-height: 1px;
+  background-color: #656363;
+}
+.bnbtutor .bookingFaqTitle {
+  display: flex;
+  align-items: center;
+  margin: 19px 0 0;
+  width: 98.44%;
+  font: 500 36px/1.22 Montserrat, Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .bnbtutor .bookingFaqTitle {
+    font-size: 32px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .bookingFaqTitle {
+    font-size: 30px;
+  }
+}
+.bnbtutor .bookingFaqLine {
+  margin: 18px 0 0;
+  width: 99.22%;
+  height: 1px;
+  min-height: 1px;
+  background-color: #656363;
+}
+.bnbtutor .phoneBookingFaqTitle {
+  display: flex;
+  align-items: center;
+  margin: 19px 0 0;
+  width: 98.44%;
+  font: 500 36px/1.22 Montserrat, Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .bnbtutor .phoneBookingFaqTitle {
+    font-size: 32px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .phoneBookingFaqTitle {
+    font-size: 30px;
+  }
+}
+.bnbtutor .phoneBookingFaqLine {
+  margin: 18px 0 0;
+  width: 99.22%;
+  height: 1px;
+  min-height: 1px;
+  background-color: #656363;
+}
+.bnbtutor .addressRegistrationFaqTitle {
+  display: flex;
+  align-items: center;
+  margin: 19px 0 0;
+  width: 98.44%;
+  font: 500 36px/1.22 Montserrat, Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .bnbtutor .addressRegistrationFaqTitle {
+    font-size: 32px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .addressRegistrationFaqTitle {
+    font-size: 30px;
+  }
+}
+.bnbtutor .addressRegistrationFaqLine {
+  margin: 18px 0 0;
+  width: 99.22%;
+  height: 1px;
+  min-height: 1px;
+  background-color: #656363;
+}
+.bnbtutor .apartmentViewFaqTitle {
+  display: flex;
+  align-items: center;
+  margin: 19px 0 0;
+  width: 98.44%;
+  font: 500 36px/1.22 Montserrat, Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .bnbtutor .apartmentViewFaqTitle {
+    font-size: 32px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .apartmentViewFaqTitle {
+    font-size: 30px;
+  }
+}
+.bnbtutor .apartmentViewFaqLine {
+  margin: 18px 0 0;
+  width: 99.22%;
+  height: 1px;
+  min-height: 1px;
+  background-color: #656363;
+}
+.bnbtutor .flexCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px 0;
+  margin: 0 auto;
+  width: 88.68%;
+  max-width: 1276.9875488281px;
+}
+.bnbtutor .heroTitleBox_box {
+  display: flex;
+  align-items: center;
+}
+.bnbtutor .heroTitleBox {
+  font: 700 40px/1.22 Montserrat, Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .bnbtutor .heroTitleBox {
+    font-size: 36px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .heroTitleBox {
+    font-size: 32px;
+  }
+}
+.bnbtutor .heroTitleBox_span0 {
+  font: 700 1em/1.22 Montserrat, Helvetica, Arial, serif;
+}
+.bnbtutor .heroTitleBox_span1 {
+  font: 700 1em/1.22 Montserrat, Helvetica, Arial, serif;
+  color: #a50e0e;
+}
+.bnbtutor .heroTitleBox_span2 {
+  font: 700 1em/1.22 Montserrat, Helvetica, Arial, serif;
+}
+.bnbtutor .heroImage2 {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.bnbtutor .footerSection {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 402px;
+}
+@media (max-width: 991px) {
+  .bnbtutor .footerSection {
+    margin: 0 0 150px;
+  }
+}
+@media (max-width: 575px) {
+  .bnbtutor .footerSection {
+    margin: 0 0 80px;
+  }
+}
+@media (max-width: 383px) {
+  .bnbtutor .footerSection {
+    margin: 0 0 50px;
+  }
+}
+.bnbtutor .flexContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto 0;
+  width: 88.68%;
+  max-width: 1276.9875488281px;
+  background-color: black;
+}
+.bnbtutor .flexColumn1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px 0;
+  margin: 29px auto 16px;
+  width: 91.39%;
+}
+.bnbtutor .flexRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .bnbtutor .flexRow {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 10px;
+  }
+}
+.bnbtutor .mainTitle2 {
+  display: flex;
+  align-items: center;
+  margin: 51px 0 17px;
+  width: 208px;
+  font: 700 32px/1.21 Montserrat, Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .bnbtutor .mainTitle2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .bnbtutor .mainTitle2 {
+    margin: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .mainTitle2 {
+    font-size: 26px;
+  }
+}
+.bnbtutor .blogTitle {
+  display: flex;
+  align-items: center;
+  margin: 0 0 117px;
+  font: 700 24px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .bnbtutor .blogTitle {
+    font-size: 22px;
+  }
+}
+@media (max-width: 767px) {
+  .bnbtutor .blogTitle {
+    margin: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .blogTitle {
+    font-size: 20px;
+  }
+}
+.bnbtutor .socialColumn {
+  display: flex;
+  flex-direction: column;
+  margin: 1px 0 0;
+  width: 143px;
+  min-width: 0;
+}
+@media (max-width: 767px) {
+  .bnbtutor .socialColumn {
+    margin: 0;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.bnbtutor .socialTitle {
+  display: flex;
+  align-items: center;
+  font: 700 24px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .bnbtutor .socialTitle {
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .socialTitle {
+    font-size: 20px;
+  }
+}
+.bnbtutor .stripeTitle {
+  display: flex;
+  align-items: center;
+  margin: 17px 0 0;
+  font: 400 24px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .bnbtutor .stripeTitle {
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .stripeTitle {
+    font-size: 20px;
+  }
+}
+.bnbtutor .twitterTitle {
+  display: flex;
+  align-items: center;
+  margin: 6px 29px 0 0;
+  font: 400 24px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .bnbtutor .twitterTitle {
+    font-size: 22px;
+  }
+}
+@media (max-width: 575px) {
+  .bnbtutor .twitterTitle {
+    margin: 6px 16px 0 0;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .twitterTitle {
+    font-size: 20px;
+  }
+}
+@media (max-width: 383px) {
+  .bnbtutor .twitterTitle {
+    margin: 6px 8px 0 0;
+  }
+}
+.bnbtutor .flutterwaveTitle {
+  display: flex;
+  align-items: center;
+  margin: 6px 0 0;
+  font: 400 24px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .bnbtutor .flutterwaveTitle {
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .flutterwaveTitle {
+    font-size: 20px;
+  }
+}
+.bnbtutor .legalColumn {
+  display: flex;
+  flex-direction: column;
+  width: 139px;
+  min-width: 0;
+}
+@media (max-width: 767px) {
+  .bnbtutor .legalColumn {
+    width: 100%;
+    min-width: unset;
+  }
+}
+.bnbtutor .legalTitle {
+  display: flex;
+  align-items: center;
+  font: 700 24px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .bnbtutor .legalTitle {
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .legalTitle {
+    font-size: 20px;
+  }
+}
+.bnbtutor .termsTitle {
+  display: flex;
+  align-items: center;
+  margin: 18px 1px 0;
+  font: 400 24px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .bnbtutor .termsTitle {
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .termsTitle {
+    font-size: 20px;
+  }
+}
+.bnbtutor .privacyTitle {
+  display: flex;
+  align-items: center;
+  margin: 6px 1px 0;
+  font: 400 24px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .bnbtutor .privacyTitle {
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .privacyTitle {
+    font-size: 20px;
+  }
+}
+.bnbtutor .impressumTitle {
+  display: flex;
+  align-items: center;
+  margin: 6px 0 0 1px;
+  font: 400 24px/1.2 Montserrat, Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .bnbtutor .impressumTitle {
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .bnbtutor .impressumTitle {
+    font-size: 20px;
+  }
+}
+.bnbtutor .footerTextBox_box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 439.0375061035px;
+  max-width: 85%;
+}
+.bnbtutor .footerTextBox {
+  font: 700 14px/1.21 Montserrat, Helvetica, Arial, serif;
+  color: white;
+  text-align: right;
+}
+.bnbtutor .footerTextBox_span0 {
+  font: 700 1em/1.21 Montserrat, Helvetica, Arial, serif;
+}
+.bnbtutor .footerTextBox_span1 {
+  font: 1em/1.21 Montserrat, Helvetica, Arial, serif;
+}
